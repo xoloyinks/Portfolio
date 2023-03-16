@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
+
+*{
+    font-family: 'Titillium Web', sans-serif;
+}
+.logo{
+    /* border:solid 2px white; */
+    /* font-family: 'Work Sans', sans-serif; */
+    font-family: 'Shantell Sans', cursive;
+}
+
+.menu{
+    /* display: none; */
+    /* opacity: 0; */
+    visibility: hidden;
+    transition: 1s;
+    transform: translateY(-100vh);
+}
+
+.responsive_menu{
+    background-color: #1f2937;
+    visibility: visible;
+    animation: menu_slide 1s;
+    transform: translateY(0);
+}
+@keyframes menu_slide {
+    from{
+        transform: translateY(-100vh);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+.port_img{
+    background-image: url(images/20221124_1451491.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: dance 3s ease-in-out infinite;
+}
+.map{
+    animation: map_pin 10s infinite;
+}
+
+@keyframes map_pin {
+    0%{
+        transform: translate(0px , 0px);
+    }
+    
+    50%{
+        transform: translate(-5px, 10px);
+    }
+}
+@keyframes dance {
+    0%{
+        transform: translate(0px , 0px);
+    }
+    
+    50%{
+        transform: translate(-5px, 10px);
+    }
+}
+.link{
+    display: none;
+    
+}
+.sec:hover > .link{
+    transition: 2s;
+    
+    display: block;
+    
+    animation: visit 0.5s;
+}
+@keyframes visit {
+    0%{
+        transform: translate(150px);
+    }
+    100%{
+        transform: translate(0 );
+    }
+    
+}
+
+
