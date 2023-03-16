@@ -96,8 +96,9 @@ export default function Contact(){
                <br />
                 
                
-                
-               
+                <span className="text-white text-lg font-semibold"> &copy; XOLO 2023</span>
+                <br />
+                <br />
             </section>
         </>
     )

@@ -35,7 +35,7 @@ export default function Caption(){
                             A Frontend Web Developer
                         </h1>
                     </p><br classname="max-[420px]:hidden" />
-                    <div className="w-[100%] sm:w-[80%] backdrop-blur">
+                    <div className="w-[100%] sm:w-[80%] ">
                         <p className="leading-[30px] tracking-wider text-sm max-[420px]:text-lg">
                             A self thought Front end Web developer from Akure.If you 
                             need a <strong>Generic Framework, Fast,</strong> and a <strong>Responsive </strong> 
