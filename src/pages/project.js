@@ -72,7 +72,7 @@ var blobColor = '#374151';
 var Svg = () => {
     return(
         <>
-            <svg width="500" height="500" viewBox="-30 -180 150 150" xmlns="http://www.w3.org/2000/svg" className='svg absolute bottom-0 left-0 max-[420px]:hidden'>
+            <svg width="800" height="800" viewBox="-30 -180 350 350" xmlns="http://www.w3.org/2000/svg" className='svg absolute bottom-[-400px] left-0 max-[420px]:hidden'>
                     <path fill={blobColor} d="M47.2,-56.3C52.9,-41.5,43.6,-20.8,43.4,-0.2C43.2,20.3,52.1,40.7,46.4,56.9C40.7,73.2,20.3,85.3,-1.1,86.4C-22.6,87.6,-45.2,77.7,-60.5,61.5C-75.7,45.2,-83.6,22.6,-83.8,-0.2C-83.9,-22.9,-76.4,-45.9,-61.1,-60.7C-45.9,-75.5,-22.9,-82.2,-1.1,-81.2C20.8,-80.1,41.5,-71.2,47.2,-56.3Z" />
             </svg>
         </>
@@ -94,7 +94,7 @@ const Languages = ({prog}) => {
 const Project = ({img , title, languages, weblink}) => {
     return(
         <>
-            <section className="relative w-[70%] text-center h-auto bg-gray-800 drop-shadow shadow-red-500 p-5 mt-3 sm:w-[45%] sm:px-[10px] max-[650px]:mx-auto max-[420px]:w-[95%] lg:w-[30%] sec">
+            <section className="relative w-[70%] text-center h-auto bg-gray-800 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.2)] shadow-red-500 p-5 mt-3 sm:w-[45%] sm:px-[10px] max-[650px]:mx-auto max-[420px]:w-[95%] lg:w-[30%] sec">
                 <div className="absolute  text-white right-0 left-0 top-0 h-[100%] link">
                     <a href={weblink} className="flex text-2xl font-semibold backdrop-blur-lg h-full items-center mx-auto justify-center">
                        <BsGlobe /> <span className="px-3"> Visit Site</span>
@@ -111,6 +111,8 @@ const Project = ({img , title, languages, weblink}) => {
                 </div>
                 <br />
             </section>
+            
+
         </>
     )
 }

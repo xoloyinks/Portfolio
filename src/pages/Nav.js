@@ -11,7 +11,7 @@ export default function Nav(){
     return(
         <>
             <section className="fixed h-auto z-50 w-screen">
-                <div className="flex justify-between px-[30px] backdrop-blur-3xl py-5 nav w-auto z-40 sm:py-4 sm:items-center sm:px-[50px] lg:px-[100px] xl:px-[150px]">
+                <div className="flex justify-between px-[20px] backdrop-blur-3xl py-5 nav w-auto z-40 sm:py-4 sm:items-center sm:px-[50px] lg:px-[100px] xl:px-[130px]">
                     <div className="logo  text-gray-300 text-md  bg-gray-700 w-[120px] p-3 rounded-full text-center sm:text-[12px]">
                         MyPortfolio
                     </div>

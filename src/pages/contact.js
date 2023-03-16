@@ -5,9 +5,9 @@ var blobColor = '#374151';
 var Svg = () => {
     return(
         <>
-            <svg width="400" height="400" viewBox="-30 -180 170 230" xmlns="http://www.w3.org/2000/svg" className=' svg absolute bottom-0 right-0 -rotate-90'>
+            {/* <svg width="400" height="400" viewBox="-30 -180 170 230" xmlns="http://www.w3.org/2000/svg" className=' svg absolute bottom-0 right-0 -rotate-90'>
                     <path fill={blobColor} d="M47.2,-56.3C52.9,-41.5,43.6,-20.8,43.4,-0.2C43.2,20.3,52.1,40.7,46.4,56.9C40.7,73.2,20.3,85.3,-1.1,86.4C-22.6,87.6,-45.2,77.7,-60.5,61.5C-75.7,45.2,-83.6,22.6,-83.8,-0.2C-83.9,-22.9,-76.4,-45.9,-61.1,-60.7C-45.9,-75.5,-22.9,-82.2,-1.1,-81.2C20.8,-80.1,41.5,-71.2,47.2,-56.3Z" />
-            </svg>
+            </svg> */}
         </>
     )
 }
@@ -20,9 +20,9 @@ export default function Contact(){
                 <div className="text-left py-5 z-50">
                         <h1 className="text-gray-700 text-5xl max-[420px]:text-4xl">Reach out</h1>
                 </div><br /> 
-                <hr className="border-2 border-gray-900 z-50" />
+                <hr className="border-2 border-gray-100 z-50" />
                 <div className=" sm:flex w-full py-5 items-center justify-between z-50">
-                    <div className="w-[45%] text-3xl  max-[420px]:text-[25px] max-[420px]:w-[90%]">
+                    <div className="w-[45%] text-xl sm:text-3xl  max-[420px]:text-[25px] max-[420px]:w-[90%]">
                         <span className="py-3 text-white w-7/12 ">
                             <a href="#" className="w-full ">
                                 <span className=" w-full justify-between flex items-center ">
@@ -70,7 +70,7 @@ export default function Contact(){
                     </div>
                     <br className="hidden max-[420px]:block" />
 
-                    <div className="w-[100%] sm:w-[45%] z-50 backdrop-blur ">
+                    {/* <div className="w-[100%] sm:w-[45%] z-50 backdrop-blur ">
                         <h1 className="text-lg text-white">Send me an email</h1>
                         <form action="" className="w-full">
                             <div className="py-5 h-[auto] flex flex-col justify-between">
@@ -87,17 +87,18 @@ export default function Contact(){
                             
                             <button className="px-8 py-3 rounded bg-gray-700 text-white text-sm max-[420px]:text-lg">Send</button>
                         </form>
-                    </div>
+                    </div> */}
                 </div>
+                {/* <br /> */}
+               
+                <hr className="border-2 border-gray-100" />
+               <br />
+               <br />
+                
+               
+                <span className="text-white text-lg font-semibold"> &copy; XOLO 2023</span>
                 <br />
-               
-                <hr className="border-2 border-gray-900" />
-               <br />
-               <br />
-                
-               
-                
-               
+                <br />
             </section>
         </>
     )
