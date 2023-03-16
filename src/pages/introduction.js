@@ -20,7 +20,7 @@ export default function Caption(){
                     {/* <div className="absolute bottom-[30px] opacity-50 animate-spin rounded-[15px] p-5 border-2 border-gray-800 h-[20px] w-[20px] max-[420px]:bottom-[20px] max-[420px]:right-[10px] max-[420px]:border-gray-600 max-[420px]:right-[500px]"></div> */}
                     {/* <div className="absolute bottom-[30px] opacity-50 motion-safe:animate-ping rounded-[15px] p-5 border-2 border-gray-800 h-[20px] w-[20px] max-[420px]:bottom-[20px] max-[420px]:right-[10px] max-[420px]:border-gray-600 max-[420px]:right-[500px]"></div> */}
                     {/* <div className="absolute bottom-[30px] opacity-50 motion-safe:animate-pulse rounded-[15px] p-5 border-2 border-gray-800 h-[20px] w-[20px] max-[420px]:bottom-[20px] max-[420px]:right-[10px] max-[420px]:border-gray-600 max-[420px]:right-[500px]"></div> */}
-                <div className="about_img self-center py-2 px-[20px] text-white backdrop-blur max-[850px]:w-[100%] max-[420px]:backdrop-blur-sm ">
+                <div className="about_img self-center py-2 sm:px-[20px] text-white max-[850px]:w-[100%]">
                     <div className="absolute right-[200px] opacity-5 animate-pulse rounded-[15px] p-0 border-2 border-gray-700 h-[40px] w-[40px] max-[420px]:bottom-[20px] max-[420px]:right-[10px]"></div>
                     <p>
                         <h1 className="text-4xl leading-[60px] max-[850px]:text-3xl ">Hi!</h1>
