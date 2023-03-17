@@ -2,7 +2,7 @@ import React from "react";
 import Nav from './Nav';
 import Caption from "./introduction";
 
-var blobColor = '#374151';
+var blobColor = '#1f2937';
 
 const Svg = () => {
     return(

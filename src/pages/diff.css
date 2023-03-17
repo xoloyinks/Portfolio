@@ -18,7 +18,7 @@
 }
 
 .responsive_menu{
-    background-color: #1f2937;
+    background-color: #111827;
     visibility: visible;
     animation: menu_slide 1s;
     transform: translateY(0);

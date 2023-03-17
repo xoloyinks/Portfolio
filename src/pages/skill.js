@@ -8,7 +8,7 @@ import bootstrap_img from './images/icons8-bootstrap.svg';
 import tailwind_img from './images/icons8-tailwindcss.svg';
 
 
-var blobColor = '#374151';
+var blobColor = '#1f2937';
 
 
 
@@ -66,7 +66,7 @@ const Skill = ({title, avatar, content}) => {
     return(
         <>
         
-            <section  className=" w-[70%] mt-3 rounded text-center py-5 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.2)] shadow-white-3/12 bg-gray-800 sm:w-[45%] lg:w-[30%] max-[650px]:mx-auto max-[420px]:w-[95%]">
+            <section  className=" w-[70%] mt-3 rounded text-center py-5 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.2)] shadow-white-3/12 bg-gray-900 sm:w-[45%] lg:w-[30%] max-[650px]:mx-auto max-[420px]:w-[95%]">
                 <div className="w-[50%]  h-[fit-content] mx-auto drop-shadow shadow-red-500">
                     <img src={avatar} alt="avatar" className="mx-auto" />
                 </div>
@@ -88,7 +88,7 @@ const padding = 'px-[180px]';
 export default function Skills(){
     return(
         <>
-            <section id="skill" className="z-30 flex px-[20px] sm:px-[50px]  py-8 w-[100%] h-auto bg-gray-800 relative md:px-[50px] lg:px-[100px] xl:px-[180px] ">
+            <section id="skill" className="z-30 flex px-[20px] sm:px-[50px]  py-8 w-[100%] h-auto bg-gray-900 relative md:px-[50px] lg:px-[100px] xl:px-[180px] ">
                 <div className="self-center ">
                     <Svg />
                     <div className="text-left py-4 z-50">

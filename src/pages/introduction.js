@@ -48,7 +48,7 @@ export default function Caption(){
                     </div>
                     <br />
                 </div>
-                <div className="port_img w-[50%] drop-shadow shadow-red-500 backdrop-blur border-4 border-gray-500 md:h-[450px] self-center rounded-full lg:w-[30%] max-[850px]:w-[50%] max-[850px]:h-[500px] max-[500px]:h-[300px]  max-[500px]:border-gray-700 max-[500px]:w-[70%] max-[420px]:h-[200px]">
+                <div className="port_img w-[50%] drop-shadow shadow-red-500 backdrop-blur border-4 border-gray-700 md:h-[450px] self-center rounded-full lg:w-[30%] max-[850px]:w-[50%] max-[850px]:h-[500px] max-[500px]:h-[300px]  max-[500px]:border-gray-700 max-[500px]:w-[70%] max-[420px]:h-[200px]">
                     {/* <img src={img} alt="ME" className="w-full h-full "/> */}
                 </div>
             

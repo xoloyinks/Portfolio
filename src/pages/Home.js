@@ -12,7 +12,7 @@ var blobColor = '#374151';
 export default function Home(){
     return(
         <>
-            <section className='home w-[100%] h-auto bg-gray-800 relative absolute'>
+            <section className='home w-[100%] h-auto bg-gray-900 relative absolute'>
                 <About />
                 <hr className='border-2 border-gray-700 hidden lg:block' />
                 <Skills />

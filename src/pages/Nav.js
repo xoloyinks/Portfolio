@@ -32,7 +32,7 @@ export default function Nav(){
                         </button>
                     </div>
                 </div>
-                <div ref={navRef} className="menu absolute top-0 bg-gray-900 z-50 py-5 w-screen h-screen">
+                <div ref={navRef} className="menu absolute top-0 bg-gray-800 z-50 py-5 w-screen h-screen">
                     <nav className="flex flex-col relative items-center justify-center text-white text-3xl h-screen">
                         <a href="/#"><p className="p-5 ">Projects</p></a>
                         <a href="/#"><p className="p-5 ">Skills</p></a>

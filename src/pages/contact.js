@@ -14,7 +14,7 @@ var Svg = () => {
 export default function Contact(){
     return(
         <>
-            <section id="contact" className="w-[100%] h-auto bg-gray-800 relative px-[50px] md:px-[50px] lg:px-[100px] xl:px-[180px] max-[420px]:px-[20px]">
+            <section id="contact" className="w-[100%] h-auto bg-gray-900 relative px-[50px] md:px-[50px] lg:px-[100px] xl:px-[180px] max-[420px]:px-[20px]">
                 <Svg />
                 <br />
                 <div className="text-left py-5 z-50">
