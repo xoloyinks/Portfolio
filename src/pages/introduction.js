@@ -39,7 +39,7 @@ export default function Caption(){
                         <h1 className=" text-[20px]  leading-[40px] sm:text-[15px] text-gray-400 ">Hi, my name is</h1>
                     </p>
                     <p>
-                        <h1 className={`text-white sm:text-[70px] leading-[60px] sm:leading-[100px] max-[420px]:text-[40px]`}>
+                        <h1 className="text-white sm:text-[70px] leading-[60px] sm:leading-[100px] max-[420px]:text-[40px]">
                             Kolawole <br className="sm:hidden" /> Moses.
                         </h1>
                     </p>
@@ -57,7 +57,7 @@ export default function Caption(){
                         </p>
                     </div><br />
                     <div className="relative w-[220px] h-[70px] sm:w-[200px] sm:h-[50px] overflow-hidden ">
-                        <a href="#contact" className={`okay flex justify-center items-center rounded-lg overflow-hidden border-2 border-white w-full h-full sm:font-semibold text-white  sm:text-[10px]  max-[420px]:text-sm hover:text-black`}>
+                        <a href="#contact" className="okay flex justify-center items-center rounded-lg overflow-hidden border-2 border-white w-full h-full sm:font-semibold text-white  sm:text-[10px]  max-[420px]:text-sm hover:text-black">
                             SEE MY WORK <span className="font-bold text-2xl ml-3"> &#x2192;</span> 
                         </a>
                     </div>
