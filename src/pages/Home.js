@@ -3,6 +3,7 @@ import About from './about';
 import Skills from './skill'
 import Projects from './project';
 import Contact from './contact';
+import Footer from './footer';
 import './diff.css';
 
 var secondaryColor = '#0A2463';
@@ -14,13 +15,14 @@ export default function Home(){
         <>
             <section className='home w-[100%] h-auto bg-gray-900 relative absolute'>
                 <About />
-                <hr className='border-2 border-gray-700 hidden lg:block' />
+                {/* <hr className='border-2 border-gray-700 hidden lg:block' /> */}
                 <Skills />
                 <hr className='hidden border-2 lg:border-gray-700' />
                 <Projects />
                 <br />
                 <hr className='hidden border-2 lg:border-gray-700' />
                 <Contact />
+                <Footer />
             </section>
         </>
     )

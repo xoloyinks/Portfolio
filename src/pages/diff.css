@@ -80,4 +80,103 @@
     
 }
 
+.okay:hover{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.okay ::after{
+    content: '';
+    text-align: right;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    position: absolute;
+    color: black;
+    left: 0;
+    right: -40px;
+    top: 0;
+    bottom:0;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 20px;
+    background-color: rgba(400, 400, 400, 1);
+    transform: translateX(-280px);
+    transition: 0.4s;
+    z-index: -1;
+    cursor: pointer;
+}
 
+.okay:hover ::after{
+    /* z-index: 0; */
+    transform: translateX(0px);
+    /* display: none; */
+}
+.okay{
+    z-index: 1;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-opt{
+    position: relative;
+    overflow: hidden;
+}
+.nav-opt::after{
+    content: '';
+    border-bottom: solid white 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: translate(-150px);
+    transition: 0.5s;
+}
+.nav-opt:hover::after{
+    transform: translateX(0px);
+}
+
+
+.okayed:hover{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.okayed ::before{
+    content: '';
+    text-align: right;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    position: absolute;
+    color: black;
+    left: 0;
+    right: -40px;
+    top: 0;
+    bottom:0;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 20px;
+    background-color: rgba(400, 400, 400, 1);
+    transform: translateX(-310px);
+    transition: 0.4s;
+    z-index: -1;
+    cursor: pointer;
+}
+.okayed:hover ::before{
+    /* z-index: 0; */
+    transform: translateX(0px);
+    /* display: none; */
+}
+.okayed{
+    /* display: none; */
+    z-index: 1;
+}
+
+#navlist{
+    transition: 1s;
+}
+
+#poll-socials{
+    transition: 1s;
+}

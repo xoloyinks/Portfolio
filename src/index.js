@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './output.css';
 import reportWebVitals from './reportWebVitals';
 import Home from './pages/Home'
+import Practice from './pages/prac.js/practice';
+import { BrowserRouter as Router } from 'react-router-dom';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home />
+    <Router>
+        <Home />
+    </Router>
+    {/* <Router>
+      <Practice />
+    </Router> */}
+      
   </React.StrictMode>
 );
 

@@ -72,9 +72,9 @@ var blobColor = '#1f2937';
 var Svg = () => {
     return(
         <>
-            <svg width="800" height="800" viewBox="-30 -180 350 350" xmlns="http://www.w3.org/2000/svg" className='svg absolute bottom-[-400px] left-0 max-[420px]:hidden'>
+            {/* <svg width="800" height="800" viewBox="-30 -180 350 350" xmlns="http://www.w3.org/2000/svg" className='svg absolute bottom-[-400px] left-0 max-[420px]:hidden'>
                     <path fill={blobColor} d="M47.2,-56.3C52.9,-41.5,43.6,-20.8,43.4,-0.2C43.2,20.3,52.1,40.7,46.4,56.9C40.7,73.2,20.3,85.3,-1.1,86.4C-22.6,87.6,-45.2,77.7,-60.5,61.5C-75.7,45.2,-83.6,22.6,-83.8,-0.2C-83.9,-22.9,-76.4,-45.9,-61.1,-60.7C-45.9,-75.5,-22.9,-82.2,-1.1,-81.2C20.8,-80.1,41.5,-71.2,47.2,-56.3Z" />
-            </svg>
+            </svg> */}
         </>
     )
 }
@@ -119,7 +119,7 @@ const Project = ({img , title, languages, weblink}) => {
 export default function Projects(){
     return(
         <>
-           <section id="project"  className="bg-gray-900 px-[50px] flex justify-between flex-wrap w-[100%] relative md:px-[50px] lg:px-[100px] xl:px-[180px]">
+           <section id="project"  className="bg-gray-900 px-[20px] flex justify-between flex-wrap w-[100%] relative md:px-[50px] lg:px-[100px] xl:px-[150px]">
             
                 <Svg />
                 <div className="text-left py-4 z-30 mt-5">

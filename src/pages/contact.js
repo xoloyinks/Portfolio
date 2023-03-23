@@ -1,4 +1,5 @@
 import React from "react";
+import './diff.css'
 import { FaBriefcase, FaEnvelope, FaFacebook, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
 
 var blobColor = '#374151';
@@ -14,91 +15,38 @@ var Svg = () => {
 export default function Contact(){
     return(
         <>
-            <section id="contact" className="w-[100%] h-auto bg-gray-900 relative px-[50px] md:px-[50px] lg:px-[100px] xl:px-[180px] max-[420px]:px-[20px]">
-                <Svg />
-                <br />
-                <div className="text-left py-5 z-50">
-                        <h1 className="text-gray-700 text-5xl max-[420px]:text-4xl">Reach out</h1>
-                </div><br /> 
-                <hr className="border-2 border-gray-100 z-50" />
-                <div className=" sm:flex w-full py-5 items-center justify-between z-50">
-                    <div className="w-[45%] text-xl sm:text-3xl  max-[420px]:text-[25px] max-[420px]:w-[90%]">
-                        <span className="py-3 text-white w-7/12 ">
-                            <a href="#" className="w-full ">
-                                <span className=" w-full justify-between flex items-center ">
-                                    <span><FaFacebook color="white" /></span>
-                                    <span className=" w-10/12"> Omopariola Kolawole</span>
-                                </span>
-                            </a>
-                        </span>
-                        <br />
-                        <span className="py-3 text-white w-6/12 ">
-                            <a href="#" className="w-full ">
-                                <span className=" w-full justify-between flex items-center ">
-                                    <span><FaEnvelope color="white" /></span>
-                                    <span className=" w-10/12"> xoloyinks@gmail.com</span>
-                                </span>
-                            </a>
-                        </span>
-                        <br />
-                        <span className="py-3 text-white w-6/12">
-                            <a href="#" className="w-full ">
-                                <span className=" w-full justify-between flex items-center ">
-                                    <span><FaTwitter color="white" /></span>
-                                    <span className=" w-10/12"> @xoloyinks_</span>
-                                </span>
-                            </a>
-                        </span>
-                        <br />
-                        <span className="py-3 text-white w-6/12">
-                            <a href="#" className="w-full ">
-                                <span className=" w-full justify-between flex items-center ">
-                                    <span><FaLinkedin color="white" /></span>
-                                    <span className=" w-10/12"> Omopariola Kolawole</span>
-                                </span>
-                            </a>
-                        </span>
-                        <br />
-                        <span className="py-3 text-white w-6/12">
-                            <a href="#" className="w-full ">
-                                <span className=" w-full justify-between flex items-center ">
-                                    <span><FaWhatsapp color="white" /></span>
-                                    <span className=" w-10/12"> 09035526185</span>
-                                </span>
-                            </a>
-                        </span>
-                    </div>
-                    <br className="hidden max-[420px]:block" />
-
-                    {/* <div className="w-[100%] sm:w-[45%] z-50 backdrop-blur ">
-                        <h1 className="text-lg text-white">Send me an email</h1>
-                        <form action="" className="w-full">
-                            <div className="py-5 h-[auto] flex flex-col justify-between">
-                                <div className="h-full flex flex-col justify-between">
-                                    <span className="w-full"><input type="text" placeholder="Your name" className="p-3 w-full rounded-[15px]" /></span>
-                                    <br />
-                                    <span className="w-full"><input type="email" placeholder="Your email" className="p-3 w-full rounded-[15px]" /></span>
-                                </div>
-                                <br />
-                                <div className="">
-                                    <textarea name="" id="" placeholder="Your massage"  className="p-3 w-full h-full rounded-[15px]"></textarea>
-                                </div>
+            <section id="contact" className="w-screen h-auto py-16 flex px-[45px] items-center justify-center bg-slate-900">
+                <div className="w-full">
+                    <div className="w-full sm:w-[60%] sm:mx-auto sm:text-center">
+                        <h1 className="text-3xl sm:text-4xl text-white font-semibold">Send me a message!</h1><br />
+                        <p className="text-white text-sm sm:text-lg tracking-wider">
+                            Got a question or proposal, or just want <br /> 
+                            to say hello? Go ahead.
+                        </p>
+                    </div><br /><br />
+                    <form action="" method="post">
+                        <div className="flex flex-col gap-7  sm:flex sm:flex-row sm:w-[50%] sm:justify-between sm:mx-auto py-3">
+                            <div className="flex flex-col sm:w-[45%]">
+                                <label for="full-name" className="text-white text-sm opacity-40">Your name</label>
+                                <input id="full-name" type="text" placeholder="Enter your name" required className="text-white bg-transparent py-3 border-b-2 border-gray-700 focus:outline-none"/>
                             </div>
-                            
-                            <button className="px-8 py-3 rounded bg-gray-700 text-white text-sm max-[420px]:text-lg">Send</button>
-                        </form>
-                    </div> */}
+                            <div className="flex flex-col sm:w-[45%]">
+                                <label for="email" className="text-white text-sm opacity-40">Email Address</label>
+                                <input id="email" type="email" required placeholder="Enter your email address"  className="text-white bg-transparent py-3 border-b-2 border-gray-700 focus:outline-none"/>
+                            </div>
+                        </div><br />
+                        <div className="flex flex-col sm:w-[50%] sm:mx-auto">
+                            <label for="message" className="text-white text-sm opacity-40" >Your message</label>
+                            <textarea name="" id="message" required placeholder="Hi, i think we need a Website for our brand or Company X. How soon can you hop on to discuss this?" cols="30" rows="3" className="resize-none py-3 bg-transparent border-b-2 border-gray-700 text-white focus:outline-none"></textarea>
+                        </div>
+                        <br /><br />
+                        <div className="relative z-20 w-[200px] h-[70px] sm:w-[270px] sm:mx-auto sm:h-[50px] overflow-hidden ">
+                            <button className="okayed flex justify-center items-center rounded-lg overflow-hidden border-2 border-white w-full h-full sm:font-semibold text-white  sm:text-[10px]  max-[420px]:text-sm hover:text-black">
+                                SHOOT <span className="font-bold text-2xl ml-3"> &#x2192;</span> 
+                            </button>
+                    </div>
+                    </form>
                 </div>
-                {/* <br /> */}
-               
-                <hr className="border-2 border-gray-100" />
-               <br />
-               <br />
-                
-               
-                <span className="text-white text-lg font-semibold"> &copy; XOLO 2023</span>
-                <br />
-                <br />
             </section>
         </>
     )

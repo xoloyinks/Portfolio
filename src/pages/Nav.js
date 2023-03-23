@@ -2,7 +2,17 @@ import React from "react";
 import { useRef } from "react";
 import {FaBars, FaEnvelope, FaTwitter, FaWhatsapp, FaTimes} from 'react-icons/fa'
 
+window.onscroll = function(){
+    scroll();
+};
 
+function scroll(){
+    if(document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1500){
+        document.getElementById('navlist').style.top = "-200px";
+     }else{
+        document.getElementById('navlist').style.top = '0';
+     }
+}
 export default function Nav(){
     const navRef = useRef();
     const showMenu = () => {
@@ -10,22 +20,23 @@ export default function Nav(){
     }
     return(
         <>
-            <section className="fixed h-auto z-50 w-screen">
-                <div className="flex justify-between px-[20px] backdrop-blur-3xl py-5 nav w-auto z-40 sm:py-4 sm:items-center sm:px-[50px] lg:px-[100px] xl:px-[130px]">
+            <section id="navlist" className="fixed top-0 h-auto z-50 w-screen">
+                <div className="flex items-center justify-between px-[20px] backdrop-blur-3xl py-8 nav w-auto z-40 sm:py-10 sm:items-center sm:px-[50px] lg:px-[100px] xl:px-[80px]">
                     <div className="logo  text-gray-300 text-md  bg-gray-700 w-[120px] p-3 rounded-full text-center sm:text-[12px]">
                         MyPortfolio
                     </div>
-                    <div className="hidden lg:flex justify-between w-4/12 text-white  tracking-widest text-sm">
-                        <span><a href="#project">Projects</a></span>
-                        <span><a href="#skill">Skills</a></span>
-                        <span><a href="#contact">Contact</a></span>
-                        <span><a href="#about">About</a></span>
+                    <div className="hidden lg:flex lg:items-center justify-between w-6/12 text-white  tracking-widest text-sm">
+                        <span className="overflow-hidden w-auto h-auto py-3"><a href="#project" className= "nav-opt px-[10px] py-2 ">Projects</a></span>
+                        <span className="overflow-hidden w-auto h-auto py-3"><a href="#skill" className=" nav-opt px-[10px] py-2">Skills</a></span>
+                        <span className="overflow-hidden w-auto h-auto py-3"><a href="#contact" className=" nav-opt px-[10px] py-2">Contact</a></span>
+                        <span className="overflow-hidden w-auto h-auto py-3"><a href="#about" className=" nav-opt px-[10px] py-2">About</a></span>
+                        <div className="btn relative px-[32px] py-[8px] rounded-lg border-2 border-white hover:bg-white hover:text-black ">R&#xe9;sum&#xe9;</div>
                     </div>
-                    <div className="hidden justify-between text-lg w-[100px] z-10 lg:flex ">
+                    {/* <div className="hidden justify-between text-lg w-[100px] z-10 lg:flex ">
                         <a href="#"><FaTwitter  color="white"/></a>
                         <a href="#"><FaWhatsapp  color="white"/></a>
                         <a href="#"><FaEnvelope  color="white"/></a>
-                    </div>
+                    </div> */}
                     <div className="my-auto lg:hidden text-3xl">
                         <button onClick={showMenu}>
                             <FaBars color="white" id="menu" />
