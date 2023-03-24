@@ -9,10 +9,7 @@ import svg_bottom from './images/job_done.svg'
 
 const padding = 'px-[150px]';
 export default function Caption(){
-    window.addEventListener('load', () => {
-            document.getElementById('about_me').style.cssText = "opacity:10; transform:translateX(0px); transition:1s;";
-            document.getElementById('about_image').style.cssText = "opacity:10; transform:translateY(0px);  transition:2s;";
-    }, false)
+   
     return(
         <>
             <section id="about" className="relative sm:h-screen pt-24 py-5 flex flex-col lg:flex justify-between z-10 w-[100%] lg:px-[50px] md:px-[40px] md:flex-row lg:px-[50px] xl:px-[120px] max-[500px]:px-[20px]">
@@ -34,7 +31,7 @@ export default function Caption(){
                     </div>
                     
                     
-                <div id="about_me" className="opacity-0 -translate-x-[150px] about_img self-center py-8 px-[17px] sm:py-2 sm:px-[20px] text-white max-[850px]:w-[100%] ">
+                <div id="about_me" className=" about_img self-center py-8 px-[17px] sm:py-2 sm:px-[20px] text-white max-[850px]:w-[100%] ">
                     <p>
                         <h1 className=" text-[20px]  leading-[40px] sm:text-[15px] text-gray-400 ">Hi, my name is</h1>
                     </p>
@@ -63,7 +60,7 @@ export default function Caption(){
                     </div>
                     <br />
                 </div>
-                <div id="about_image" className="opacity-0 translate-y-[150px] port_img w-[50%] drop-shadow shadow-red-500 backdrop-blur border-4 border-gray-700 md:h-[450px] self-center rounded-full lg:w-[50%] max-[850px]:w-[50%] max-[850px]:h-[500px] max-[500px]:h-[300px]  max-[500px]:border-gray-700 max-[500px]:w-[70%] max-[420px]:h-[200px]">
+                <div id="about_image" className="port_img w-[50%] drop-shadow shadow-red-500 backdrop-blur border-4 border-gray-700 md:h-[450px] self-center rounded-full lg:w-[50%] max-[850px]:w-[50%] max-[850px]:h-[500px] max-[500px]:h-[300px]  max-[500px]:border-gray-700 max-[500px]:w-[70%] max-[420px]:h-[200px]">
                     {/* <img src={img} alt="ME" className="w-full h-full "/> */}
                 </div>
             
