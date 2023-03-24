@@ -91,14 +91,14 @@
     align-items: center;
     font-size: large;
     position: absolute;
-    color: black;
+    color: white;
     left: 0;
     right: -40px;
     top: 0;
     bottom:0;
     border-top-right-radius: 200px;
     border-bottom-right-radius: 20px;
-    background-color: rgba(400, 400, 400, 1);
+    background-color: white;
     transform: translateX(-280px);
     transition: 0.4s;
     z-index: -1;
@@ -125,7 +125,7 @@
 }
 .nav-opt::after{
     content: '';
-    border-bottom: solid white 2px;
+    border-bottom: solid #fb923c 2px;
     position: absolute;
     top: 0;
     left: 0;
@@ -150,7 +150,6 @@
     align-items: center;
     font-size: large;
     position: absolute;
-    color: black;
     left: 0;
     right: -40px;
     top: 0;
@@ -179,4 +178,24 @@
 
 #poll-socials{
     transition: 1s;
+}
+
+.each_section{
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s;
+}
+.active{
+    transform: translateY(0);
+    opacity: 10;
+}
+
+.contact{
+    transform: translateX(200px);
+    opacity: 0;
+    transition: 1s;
+}
+.present{
+    opacity: 1;
+    transform: translateX(0px);
 }

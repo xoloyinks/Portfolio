@@ -12,13 +12,25 @@ var Svg = () => {
         </>
     )
 }
+
+window.addEventListener('scroll', revealPoint, true);
+function revealPoint(){
+    var revealed = document.querySelector('.contact');
+    var revealedTop = revealed.getBoundingClientRect().top;
+
+    if(revealedTop < window.innerHeight - 50){
+        revealed.classList.add('present')
+    }else{
+        revealed.classList.remove('present')
+    }
+}
 export default function Contact(){
     return(
         <>
-            <section id="contact" className="w-screen h-auto py-16 flex px-[45px] items-center justify-center bg-slate-900">
-                <div className="w-full">
+            <section id="contact" className="w-screen overflow-x-hidden h-auto py-16 flex px-[45px] items-center justify-center bg-slate-900">
+                <div className="contact w-full">
                     <div className="w-full sm:w-[60%] sm:mx-auto sm:text-center">
-                        <h1 className="text-3xl sm:text-4xl text-white font-semibold">Send me a message!</h1><br />
+                        <h1 className="text-3xl sm:text-4xl text-orange-400 font-semibold">Send me a message!</h1><br />
                         <p className="text-white text-sm sm:text-lg tracking-wider">
                             Got a question or proposal, or just want <br /> 
                             to say hello? Go ahead.
@@ -27,16 +39,16 @@ export default function Contact(){
                     <form action="" method="post">
                         <div className="flex flex-col gap-7  sm:flex sm:flex-row sm:w-[50%] sm:justify-between sm:mx-auto py-3">
                             <div className="flex flex-col sm:w-[45%]">
-                                <label for="full-name" className="text-white text-sm opacity-40">Your name</label>
+                                <label for="full-name" className="text-orange-400 text-sm opacity-100">Your name</label>
                                 <input id="full-name" type="text" placeholder="Enter your name" required className="text-white bg-transparent py-3 border-b-2 border-gray-700 focus:outline-none"/>
                             </div>
                             <div className="flex flex-col sm:w-[45%]">
-                                <label for="email" className="text-white text-sm opacity-40">Email Address</label>
+                                <label for="email" className="text-orange-400 text-sm opacity-100">Email Address</label>
                                 <input id="email" type="email" required placeholder="Enter your email address"  className="text-white bg-transparent py-3 border-b-2 border-gray-700 focus:outline-none"/>
                             </div>
                         </div><br />
                         <div className="flex flex-col sm:w-[50%] sm:mx-auto">
-                            <label for="message" className="text-white text-sm opacity-40" >Your message</label>
+                            <label for="message" className="text-orange-400 text-sm opacity-100" >Your message</label>
                             <textarea name="" id="message" required placeholder="Hi, i think we need a Website for our brand or Company X. How soon can you hop on to discuss this?" cols="30" rows="3" className="resize-none py-3 bg-transparent border-b-2 border-gray-700 text-white focus:outline-none"></textarea>
                         </div>
                         <br /><br />

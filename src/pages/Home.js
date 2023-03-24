@@ -6,14 +6,27 @@ import Contact from './contact';
 import Footer from './footer';
 import './diff.css';
 
-var secondaryColor = '#0A2463';
-var blobColor = '#374151';
+// REVEAL POINT
+window.addEventListener('scroll', reveal, true);
+function reveal() {
+    const reveals = document.querySelectorAll('.each_section');
+    for(var i = 0; i < reveals.length; i++){
+        var top_view = reveals[i].getBoundingClientRect().top;
+        var window_height = window.innerHeight;
+        var reveal_point = 50;
+        if(top_view < window_height - reveal_point){
+            reveals[i].classList.add('active');
+        }else{
+            reveals[i].classList.remove('active');
+        }
+    }
+}
 
 
 export default function Home(){
     return(
         <>
-            <section className='home w-[100%] h-auto bg-gray-900 relative absolute'>
+            <section className='home w-[100%] h-auto bg-slate-900 relative absolute'>
                 <About />
                 {/* <hr className='border-2 border-gray-700 hidden lg:block' /> */}
                 <Skills />

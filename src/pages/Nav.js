@@ -22,15 +22,15 @@ export default function Nav(){
         <>
             <section id="navlist" className="fixed top-0 h-auto z-50 w-screen">
                 <div className="flex items-center justify-between px-[20px] backdrop-blur-3xl py-8 nav w-auto z-40 sm:py-10 sm:items-center sm:px-[50px] lg:px-[100px] xl:px-[80px]">
-                    <div className="logo  text-gray-300 text-md  bg-gray-700 w-[120px] p-3 rounded-full text-center sm:text-[12px]">
+                    <div className="logo  text-white text-md  bg-orange-700 w-[120px] p-3 rounded-full text-center sm:text-[12px]">
                         MyPortfolio
                     </div>
-                    <div className="hidden lg:flex lg:items-center justify-between w-6/12 text-white  tracking-widest text-sm">
+                    <div className="hidden lg:flex lg:items-center justify-between w-6/12 text-orange-400  tracking-widest text-sm">
                         <span className="overflow-hidden w-auto h-auto py-3"><a href="#project" className= "nav-opt px-[10px] py-2 ">Projects</a></span>
                         <span className="overflow-hidden w-auto h-auto py-3"><a href="#skill" className=" nav-opt px-[10px] py-2">Skills</a></span>
                         <span className="overflow-hidden w-auto h-auto py-3"><a href="#contact" className=" nav-opt px-[10px] py-2">Contact</a></span>
                         <span className="overflow-hidden w-auto h-auto py-3"><a href="#about" className=" nav-opt px-[10px] py-2">About</a></span>
-                        <div className="btn relative px-[32px] py-[8px] rounded-lg border-2 border-white hover:bg-white hover:text-black ">R&#xe9;sum&#xe9;</div>
+                        <div className="btn font-bold relative px-[32px] py-[8px] rounded-lg border-2 border-orange-600 text-orange-400 hover:bg-orange-600 hover:text-white ">R&#xe9;sum&#xe9;</div>
                     </div>
                     {/* <div className="hidden justify-between text-lg w-[100px] z-10 lg:flex ">
                         <a href="#"><FaTwitter  color="white"/></a>
@@ -39,7 +39,7 @@ export default function Nav(){
                     </div> */}
                     <div className="my-auto lg:hidden text-3xl">
                         <button onClick={showMenu}>
-                            <FaBars color="white" id="menu" />
+                            <FaBars color="#ea580c" id="menu" />
                         </button>
                     </div>
                 </div>
