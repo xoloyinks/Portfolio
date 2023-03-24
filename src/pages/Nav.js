@@ -23,7 +23,7 @@ export default function Nav(){
     return(
         <>
             <section id="navlist" className="fixed top-0 h-auto z-50 w-screen">
-                <div className="flex items-center justify-between px-[20px] backdrop-blur-3xl py-8 nav w-auto z-40 sm:py-10 sm:items-center sm:px-[50px] lg:px-[100px] xl:px-[80px]">
+                <div className="nav_content flex items-center justify-between px-[20px] backdrop-blur-3xl py-8 nav w-auto z-50 sm:py-10 sm:items-center sm:px-[50px] lg:px-[100px] xl:px-[80px]">
                     <div className="logo  text-white text-sm  bg-orange-700 w-[120px] p-3 rounded-full text-center sm:text-[12px]">
                         MyPortfolio
                     </div>
@@ -44,16 +44,21 @@ export default function Nav(){
                         <span className="bar_2 absolute bottom-0 bg-orange-400 w-[50%] right-0 h-[22%] rounded-full "></span>
                     </div>
                 </div>
-                
-            </section>
-            <div ref={navRef} className="menu absolute top-0 bg-gray-800 z-40 py-5 w-screen h-screen">
-                <nav className="flex flex-col relative items-center justify-center text-white text-3xl h-screen">
-                    <a href="/#"><p className="p-5 ">Projects</p></a>
-                    <a href="/#"><p className="p-5 ">Skills</p></a>
-                    <a href="/#"><p className="p-5 ">Contact</p></a>
-                    <a href="/#"><p className="p-5 ">About</p></a>
+                <div ref={navRef} className="menu absolute top-0 bg-slate-900 z-10 py-5 w-screen h-screen">
+                <nav className="flex flex-col relative items-center justify-center text-white text-xl h-screen">
+                    <a href="/#"><p className="p-5 ">My Projects</p></a>
+                    <a href="/#"><p className="p-5 ">My Skills</p></a>
+                    <a href="/#"><p className="p-5 ">React out</p></a>
+                    <a href="/#"><p className="p-5 ">My R&#xe9;sum&#xe9;</p></a>
+                    <div className="flex w-6/12 text-2xl justify-between absolute bottom-[100px]">
+                        <a href="#"><FaTwitter  color="orange" /></a>
+                        <a href="#"><FaWhatsapp  color="orange"/></a>
+                        <a href="#"><FaEnvelope  color="orange"/></a>
+                    </div>
                 </nav>
             </div>
+            </section>
+            
         </>
     )
 }
