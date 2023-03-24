@@ -15,14 +15,16 @@ function scroll(){
 }
 export default function Nav(){
     const navRef = useRef();
+    const barRef = useRef();
     const showMenu = () => {
         navRef.current.classList.toggle('responsive_menu');
+        barRef.current.classList.toggle('bar_change');
     }
     return(
         <>
             <section id="navlist" className="fixed top-0 h-auto z-50 w-screen">
                 <div className="flex items-center justify-between px-[20px] backdrop-blur-3xl py-8 nav w-auto z-40 sm:py-10 sm:items-center sm:px-[50px] lg:px-[100px] xl:px-[80px]">
-                    <div className="logo  text-white text-md  bg-orange-700 w-[120px] p-3 rounded-full text-center sm:text-[12px]">
+                    <div className="logo  text-white text-sm  bg-orange-700 w-[120px] p-3 rounded-full text-center sm:text-[12px]">
                         MyPortfolio
                     </div>
                     <div className="hidden lg:flex lg:items-center justify-between w-6/12 text-orange-400  tracking-widest text-sm">
@@ -37,26 +39,21 @@ export default function Nav(){
                         <a href="#"><FaWhatsapp  color="white"/></a>
                         <a href="#"><FaEnvelope  color="white"/></a>
                     </div> */}
-                    <div className="my-auto lg:hidden text-3xl">
-                        <button onClick={showMenu}>
-                            <FaBars color="#ea580c" id="menu" />
-                        </button>
+                    <div onClick={showMenu} ref={barRef} className=" flex relative items-center my-auto lg:hidden text-3xl z-50 w-[12%] h-[20px]">
+                        <span className="bar_1 absolute top-0 bg-orange-400 w-full h-[19%] rounded-full "></span>
+                        <span className="bar_2 absolute bottom-0 bg-orange-400 w-[50%] right-0 h-[22%] rounded-full "></span>
                     </div>
                 </div>
-                <div ref={navRef} className="menu absolute top-0 bg-gray-800 z-50 py-5 w-screen h-screen">
-                    <nav className="flex flex-col relative items-center justify-center text-white text-3xl h-screen">
-                        <a href="/#"><p className="p-5 ">Projects</p></a>
-                        <a href="/#"><p className="p-5 ">Skills</p></a>
-                        <a href="/#"><p className="p-5 ">Contact</p></a>
-                        <a href="/#"><p className="p-5 ">About</p></a>
-                        
-                        <button onClick={showMenu} className="absolute right-0 top-0 text-4xl z-50 p-3">
-                            <FaTimes color="white" />
-                        </button>
-                    </nav>
-                    
-                </div>
+                
             </section>
+            <div ref={navRef} className="menu absolute top-0 bg-gray-800 z-40 py-5 w-screen h-screen">
+                <nav className="flex flex-col relative items-center justify-center text-white text-3xl h-screen">
+                    <a href="/#"><p className="p-5 ">Projects</p></a>
+                    <a href="/#"><p className="p-5 ">Skills</p></a>
+                    <a href="/#"><p className="p-5 ">Contact</p></a>
+                    <a href="/#"><p className="p-5 ">About</p></a>
+                </nav>
+            </div>
         </>
     )
 }
