@@ -16,9 +16,9 @@ export default function Caption(){
                     {/* SOCIAL ICON FIXED */}
                     <div id="poll-socials" className="hidden z-0 fixed bottom-0 items-center px-3 left-[30px] w-[60px] overflow-x-hidden  h-[50%] flex flex-col justify-between lg:flex">
                         <div id="icon-socials" className="h-[30%] flex flex-col justify-between">
-                            <a href="https://twitter.com" target="_blanck"><FaTwitter /></a>
+                            <a href="https://twitter.com/xoloyinksweb" target="_blank"><FaTwitter /></a>
                             <a href="#"><FaLinkedin /></a>
-                            <a href="#"><FaGithub /></a>
+                            <a href="https://github.com/xoloyinks" target="_blank"><FaGithub /></a>
                         </div>
                         <div id="poll" className="border-l-2 border-orange-500 h-[60%] "></div>
                     </div>

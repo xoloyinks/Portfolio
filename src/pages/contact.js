@@ -36,24 +36,24 @@ export default function Contact(){
                             to say hello? Go ahead.
                         </p>
                     </div><br /><br />
-                    <form action="" method="post">
+                    <form action="https://formspree.io/f/xpzejvgg" method="post">
                         <div className="flex flex-col gap-7  sm:flex sm:flex-row sm:w-[50%] sm:justify-between sm:mx-auto py-3">
                             <div className="flex flex-col sm:w-[45%]">
                                 <label for="full-name" className="text-orange-400 text-sm opacity-100">Your name</label>
-                                <input id="full-name" type="text" placeholder="Enter your name" required className="text-white bg-transparent py-3 border-b-2 border-gray-700 focus:outline-none"/>
+                                <input name="name" id="full-name" type="text" placeholder="Enter your name" required className="text-white bg-transparent py-3 border-b-2 border-gray-700 focus:outline-none"/>
                             </div>
                             <div className="flex flex-col sm:w-[45%]">
                                 <label for="email" className="text-orange-400 text-sm opacity-100">Email Address</label>
-                                <input id="email" type="email" required placeholder="Enter your email address"  className="text-white bg-transparent py-3 border-b-2 border-gray-700 focus:outline-none"/>
+                                <input id="email" name="email" type="email" required placeholder="Enter your email address"  className="text-white bg-transparent py-3 border-b-2 border-gray-700 focus:outline-none"/>
                             </div>
                         </div><br />
                         <div className="flex flex-col sm:w-[50%] sm:mx-auto">
                             <label for="message" className="text-orange-400 text-sm opacity-100" >Your message</label>
-                            <textarea name="" id="message" required placeholder="Hi, i think we need a Website for our brand or Company X. How soon can you hop on to discuss this?" cols="30" rows="3" className="resize-none py-3 bg-transparent border-b-2 border-gray-700 text-white focus:outline-none"></textarea>
+                            <textarea name="message" id="message" required placeholder="Hi, i think we need a Website for our brand or Company X. How soon can you hop on to discuss this?" cols="30" rows="3" className="resize-none py-3 bg-transparent border-b-2 border-gray-700 text-white focus:outline-none"></textarea>
                         </div>
                         <br /><br />
                         <div className="relative z-20 w-[200px] h-[70px] sm:w-[270px] sm:mx-auto sm:h-[50px] overflow-hidden ">
-                            <button className="okayed flex justify-center items-center rounded-lg overflow-hidden border-2 border-white w-full h-full sm:font-semibold text-white  sm:text-[10px]  max-[420px]:text-sm hover:text-black">
+                            <button type="submit"  className="okayed flex justify-center items-center rounded-lg overflow-hidden border-2 border-white w-full h-full sm:font-semibold text-white  sm:text-[10px]  max-[420px]:text-sm hover:text-black">
                                 SHOOT <span className="font-bold text-2xl ml-3"> &#x2192;</span> 
                             </button>
                     </div>

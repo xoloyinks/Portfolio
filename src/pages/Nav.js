@@ -1,6 +1,6 @@
 import React from "react";
 import { useRef } from "react";
-import {FaBars, FaEnvelope, FaTwitter, FaWhatsapp, FaTimes} from 'react-icons/fa'
+import {FaBars, FaEnvelope, FaTwitter, FaWhatsapp, FaTimes, FaLinkedin, FaGithub} from 'react-icons/fa'
 
 window.onscroll = function(){
     scroll();
@@ -51,9 +51,9 @@ export default function Nav(){
                     <a href="/#"><p className="p-5 ">React out</p></a>
                     <a href="kola.txt" download><p className="p-5 ">Download my R&#xe9;sum&#xe9;</p></a>
                     <div className="flex w-6/12 text-2xl justify-between absolute bottom-[200px]">
-                        <a href="#"><FaTwitter  color="orange" /></a>
-                        <a href="#"><FaWhatsapp  color="orange"/></a>
-                        <a href="#"><FaEnvelope  color="orange"/></a>
+                        <a href="https://twitter.com/xoloyinksweb" target="_blank"><FaTwitter  color="orange" /></a>
+                        <a href="#"><FaLinkedin  color="orange"/></a>
+                        <a href="https://github.com/xoloyinks" target="_blank"><FaGithub  color="orange"/></a>
                     </div>
                 </nav>
             </div>

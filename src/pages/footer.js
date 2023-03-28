@@ -28,8 +28,8 @@ export default function Footer() {
               <div className='sm:flex sm:justify-between sm:w-8/12  w-full mb-[80px] sm:mb-[70px] '>
                   <div className=''>
                       <h2 className='text-orange-400 text-xl tracking-[10px] leading-[50px]'>SAY HELLO</h2>
-                      <p className='text-gray-500 text-lg leading-[50px] underline'><a href="">hello@kolawole.dev</a></p>
-                      <p className='text-gray-500 text-lg leading-[50px] underline'><a href="#">t.me/mrkolawole</a></p>
+                      <p className='text-gray-500 text-lg leading-[50px] underline'><a href="mailto:xoloyinks@gmail.com" target="_blank">xoloyinks@gmail.com</a></p>
+                      <p className='text-gray-500 text-lg leading-[50px] underline'><a href="https://t.me/xoloyinks" target="_blank">t.me/xoloyinks</a></p>
                   </div>
                     <br className='sm:hidden' />
                   <div>
