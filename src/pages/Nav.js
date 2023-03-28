@@ -27,7 +27,7 @@ export default function Nav(){
                     <div className="logo  text-white text-sm  bg-orange-700 w-[120px] p-3 rounded-full text-center sm:text-[12px]">
                         MyPortfolio
                     </div>
-                    <div className="hidden lg:flex lg:items-center justify-between w-6/12 text-orange-400  tracking-widest text-sm">
+                    <div className="hidden lg:flex lg:items-center justify-between w-6/12 text-white  tracking-widest text-sm">
                         <span className="overflow-hidden w-auto h-auto py-3"><a href="#project" className= "nav-opt px-[10px] py-2 ">Projects</a></span>
                         <span className="overflow-hidden w-auto h-auto py-3"><a href="#skill" className=" nav-opt px-[10px] py-2">Skills</a></span>
                         <span className="overflow-hidden w-auto h-auto py-3"><a href="#contact" className=" nav-opt px-[10px] py-2">Contact</a></span>
@@ -49,8 +49,8 @@ export default function Nav(){
                     <a href="/#"><p className="p-5 ">My Projects</p></a>
                     <a href="/#"><p className="p-5 ">My Skills</p></a>
                     <a href="/#"><p className="p-5 ">React out</p></a>
-                    <a href="/#"><p className="p-5 ">My R&#xe9;sum&#xe9;</p></a>
-                    <div className="flex w-6/12 text-2xl justify-between absolute bottom-[100px]">
+                    <a href="kola.txt" download><p className="p-5 ">Download my R&#xe9;sum&#xe9;</p></a>
+                    <div className="flex w-6/12 text-2xl justify-between absolute bottom-[200px]">
                         <a href="#"><FaTwitter  color="orange" /></a>
                         <a href="#"><FaWhatsapp  color="orange"/></a>
                         <a href="#"><FaEnvelope  color="orange"/></a>

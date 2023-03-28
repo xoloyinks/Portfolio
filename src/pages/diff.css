@@ -202,21 +202,21 @@
 }
 
 .bar_1, .bar_2{
-    transition: 1s;
+    transition: 0.4s;
 }
 .bar_change .bar_1 {
-    transition: 1s;
+    transition: 0.4s;
     margin: auto;
-    width: 70%;
+    width: 80%;
     transform: rotate(315deg);
-    left:7px;
+    left:6px;
     top:7px;
 }
 .bar_change .bar_2{
-    transition: 1s;
-    width: 70%;
+    transition: 0.4s;
+    width: 80%;
     transform: rotate(225deg);
     bottom:7px;
-    right:4px;
+    right:2px;
     
 }
