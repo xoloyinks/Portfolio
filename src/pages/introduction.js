@@ -54,19 +54,19 @@ export default function Caption(){
                         <h1 className=" text-[20px]  leading-[40px] sm:text-[15px] text-gray-400 ">Hi, my name is</h1>
                     </p>
                     <p id="owner">
-                        <h1 className="text-black dark:text-white sm:text-[70px] leading-[60px] sm:leading-[100px] max-[420px]:text-[40px] max-[640px]:text-[60px]">
+                        <h1 className="text-white sm:text-[70px] leading-[60px] sm:leading-[100px] max-[420px]:text-[40px] max-[640px]:text-[60px]">
                             Kolawole <br className="sm:hidden" /> Moses.
                         </h1>
                         <div id="my-mouse" className="absolute z-50 rounded-full top-[200px]"></div>
                     </p>
                     <br className="sm:hidden" />
                     <p className="__pointerX">
-                        <h1 className=" sm:text-4xl sm:leading-[60px] max-[420px]:text-[20px] text-black dark:text-white">
+                        <h1 className=" sm:text-4xl sm:leading-[60px] max-[420px]:text-[20px] text-white">
                             I build Remarkable things for the web.
                         </h1>
                     </p><br classname="max-[420px]:hidden" />
                     <div className="w-[100%] sm:w-[60%] "className="__pointerX">
-                        <p className="leading-[30px] text-[15px] dark:text-white text-black tracking-widest sm:tracking-wider sm:text-sm  ">
+                        <p className="leading-[30px] text-[15px] text-white tracking-widest sm:tracking-wider sm:text-sm  ">
                             I’m a Frontend Developer specializing in building exceptional 
                             digital experiences. Currently, i'm focused on building accessible, 
                             human-centered products.

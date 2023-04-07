@@ -59,7 +59,7 @@ export default function Nav(){
                 <nav className="flex flex-col relative items-center justify-center text-white text-xl h-screen">
                     <a href="/#"><p className="p-5 ">My Projects</p></a>
                     <a href="#skill"><p className="p-5 ">My Skills</p></a>
-                    <a href="/#"><p className="p-5 ">React out</p></a>
+                    <a href="/#"><p className="p-5 ">Reach out</p></a>
                     <a href="/resume/kolawole.pdf" download><p className="p-5 ">Download my R&#xe9;sum&#xe9;</p></a>
                     <div className="flex w-6/12 text-2xl justify-between absolute bottom-[200px]  max-[400px]:bottom-[100px]">
                         <a href="https://twitter.com/xoloyinksweb" target="_blank"><FaTwitter  color="orange" /></a>

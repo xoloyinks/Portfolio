@@ -54,7 +54,7 @@ const Skill = ({title, avatar, level}) => {
         <>
         
             <section className="each_section mt-3 flex flex-col justify-between rounded text-center py-5 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.2)] shadow-white-3/12 bg-slate-900 w-[45%] lg:w-[27%] max-[650px]:mx-auto">
-                <div className="w-[50%] opacity-100 h-[fit-content] mx-auto drop-shadow shadow-red-500 ">
+                <div className="w-[50%] opacity-70 h-[fit-content] mx-auto drop-shadow shadow-red-500 ">
                     <img src={avatar} alt="avatar" className="mx-auto" />
                 </div>
                 <div className="p-5 text-gray-100 font-bold max-[420px]:text-lg ">
