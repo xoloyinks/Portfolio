@@ -220,3 +220,37 @@
     right:2px;
     
 }
+#my-mouse{
+    width: 10px;
+    height: 10px;
+    opacity: 0;
+    border: solid 2px white;
+}
+#owner:hover > #my-mouse{
+    width: 100px;
+    height: 100px;
+   border: dotted 4px;
+   animation: mouseEvent 5s infinite;
+}
+@keyframes mouseEvent {
+    0%{
+        transform: rotate(360deg);
+    }
+}
+#owner > h1{
+    pointer-events: none;
+}
+.__pointerX{
+    pointer-events: none;
+}
+
+
+
+progress::-webkit-progress-bar{
+    background-color: transparent;
+    border:solid rgb(198, 193, 193) 1px;
+    /* border-radius: 10%; */
+}
+progress::-webkit-progress-value{
+    background-color: rgb(198, 193, 193);
+}

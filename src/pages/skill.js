@@ -1,10 +1,10 @@
 import React from "react";
 import react_img from './images/icons8-react.svg';
 import img from './images/icons8-react.svg';
-import html_img from './images/icons8-html-5-96.png';
+import html_img from './images/icons8-html-5.svg';
 import javascript_img from './images/icons8-javascript.svg';
-import css_img from './images/icons8-cascading-style-sheets-language-used-for-describing-the-presentation-of-a-document-96.png';
-import bootstrap_img from './images/icons8-bootstrap.svg';
+import css_img from './images/icons8-css3.svg';
+import git_img from './images/icons8-git.svg';
 import tailwind_img from './images/icons8-tailwindcss.svg';
 import { keyboard } from "@testing-library/user-event/dist/keyboard";
 
@@ -13,55 +13,55 @@ const skill_data = [
     {
         title: 'React',
         avatar: react_img,
-        content: ''
+        level: '50'
     },
     {
         title: 'HTML',
         avatar: html_img,
-        content: ''
+        level: '80'
     },
     {
         title: 'JavaScript',
         avatar: javascript_img,
-        content: ''
+        level: '60'
     },
     {
-        title: 'Bootstrap',
-        avatar: bootstrap_img,
-        content: ''
+        title: 'Git',
+        avatar: git_img,
+        level: '70'
     },
     {
         title: 'CSS',
         avatar: css_img,
-        content: ''
+        level: '60'
     },
     {
         title: 'Tailwind CSS',
         avatar: tailwind_img,
-        content: ''
+        level: '80'
     }
 ]
 
 
 const Map_skill = () => {
     return skill_data.map(
-        (data) => <Skill title={data.title} avatar={data.avatar} content={data.content} />
+        (data) => <Skill title={data.title} avatar={data.avatar} level={data.level} />
     )
 }
 
-const Skill = ({title, avatar, content}) => {
+const Skill = ({title, avatar, level}) => {
     return(
         <>
         
-            <section className="each_section mt-3 flex flex-col justify-between rounded text-center py-5 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.2)] shadow-white-3/12 bg-slate-900 w-[45%] lg:w-[30%] max-[650px]:mx-auto">
-                <div className="w-[50%]  h-[fit-content] mx-auto drop-shadow shadow-red-500 ">
+            <section className="each_section mt-3 flex flex-col justify-between rounded text-center py-5 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.2)] shadow-white-3/12 bg-slate-900 w-[45%] lg:w-[27%] max-[650px]:mx-auto">
+                <div className="w-[50%] opacity-100 h-[fit-content] mx-auto drop-shadow shadow-red-500 ">
                     <img src={avatar} alt="avatar" className="mx-auto" />
                 </div>
-                <div className="p-5 text-gray-500 font-bold max-[420px]:text-lg ">
+                <div className="p-5 text-gray-100 font-bold max-[420px]:text-lg ">
                     {title}
                 </div>
-                <div className="text-white px-4 text-sm max-[420px]:tracking-wider ">
-                    {content}
+                <div className="text-white bg-white px-4 text-sm max-[420px]:tracking-wider ">
+                    {/* <div className={``}></div> */}
                 </div>
                 <br />
             </section>

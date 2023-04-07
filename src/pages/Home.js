@@ -26,7 +26,7 @@ function reveal() {
 export default function Home(){
     return(
         <>
-            <section className='home w-[100%] h-auto bg-slate-900 relative absolute'>
+            <section className='home relative w-[100%] h-auto bg-gray-100 dark:bg-slate-900 relative absolute'>
                 <About />
                 {/* <hr className='border-2 border-gray-700 hidden lg:block' /> */}
                 <Skills />
