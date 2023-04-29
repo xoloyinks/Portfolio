@@ -14,7 +14,7 @@ function revealPoint_admin(){
 export default function Admin(){
   return (
     <>
-        <section className='h-fit-content sm:h-screen py-10 px-10 w-screen lg:px-[150px] items-center'>
+        <section className='h-fit-content overflow-x-hidden sm:h-screen py-10 px-10 w-screen lg:px-[150px] items-center'>
            <div className='sm:flex justify-between'>
               <div className='admin w-full sm:w-6/12 '>
                 <div>
