@@ -27,7 +27,7 @@ export default function Nav(){
     return(
         <>
             <section id="navlist" className="fixed top-0 h-auto z-50 w-screen">
-                <div className="nav_content flex items-center justify-between px-[20px] backdrop-blur-3xl py-8 nav w-auto z-50 sm:py-10 max-[380px]:py-[20px] sm:items-center sm:px-[50px] lg:px-[100px] xl:px-[80px] min-[1024px]:px-[60px]">
+                <div className="nav_content flex items-center justify-between px-[15px] backdrop-blur-3xl py-8 nav w-auto z-50 sm:py-10 max-[380px]:py-[20px] sm:items-center sm:px-[50px] lg:px-[100px] xl:px-[80px] min-[1024px]:px-[60px]">
                     <div className={`logo text-white font-bold w-[120px] p-3 rounded-full text-center sm:text-[12px]`}>
                         XOLO.
                     </div>

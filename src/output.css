@@ -1055,6 +1055,16 @@ video {
   padding-bottom: 8px;
 }
 
+.px-\[18px\] {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.px-\[15px\] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .pt-24 {
   padding-top: 6rem;
 }
@@ -1603,5 +1613,10 @@ video {
   .xl\:px-\[80px\] {
     padding-left: 80px;
     padding-right: 80px;
+  }
+
+  .xl\:px-\[70px\] {
+    padding-left: 70px;
+    padding-right: 70px;
   }
 }
