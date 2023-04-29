@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+const secColor = "green-600";
 
 export default function Footer() {
   const [getFooter , setFooter] = useState();
@@ -19,7 +20,7 @@ export default function Footer() {
         document.getElementById('icon-socials').style.cssText = "flex-direction:column; overflow-x:hidden; transition: all 1s; color:#f97316;";
         document.getElementById('poll-socials').style.cssText = "transform:translateY(0px); transition:all 0.5s;";
       }
-      console.log(getFooter);
+      // console.log(getFooter);
   },0);
   return (
     <>
@@ -27,7 +28,7 @@ export default function Footer() {
             <div className='w-full flex flex-col justify-between h-full sm:h-auto'>
               <div className='sm:flex sm:justify-between sm:w-8/12  w-full mb-[80px] sm:mb-[70px] '>
                   <div className=''>
-                      <h2 className='text-orange-400 text-xl tracking-[10px] leading-[50px]'>SAY HELLO</h2>
+                      <h2 className={`text-${secColor} text-xl tracking-[10px] leading-[50px]`}>SAY HELLO</h2>
                       <p className='text-gray-500 text-lg leading-[50px] underline'><a href="mailto:xoloyinks@gmail.com" target="_blank">xoloyinks@gmail.com</a></p>
                       <p className='text-gray-500 text-lg leading-[50px] underline'><a href="https://t.me/xoloyinks" target="_blank">t.me/xoloyinks</a></p>
                   </div>

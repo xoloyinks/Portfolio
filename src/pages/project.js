@@ -68,6 +68,7 @@ const project_data = [
 ]
 
 var blobColor = '#1f2937';
+const priColor = "green-800";
 
 const Map_project = () => {
     return project_data.map(
@@ -77,7 +78,7 @@ const Map_project = () => {
 const Languages = ({prog}) => {
     return(
         <>
-            <div className="bg-orange-700 text-white mt-3 text-sm rounded-full w-[50%] p-2 mx-auto">{prog}</div>
+            <div className={`bg-green-800 text-white mt-3 text-sm rounded-full w-[50%] p-2 mx-auto`}>{prog}</div>
         </>
     )
 }

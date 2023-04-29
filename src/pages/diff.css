@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
 
 *{
     font-family: 'Titillium Web', sans-serif;
@@ -6,7 +8,10 @@
 .logo{
     /* border:solid 2px white; */
     /* font-family: 'Work Sans', sans-serif; */
-    font-family: 'Shantell Sans', cursive;
+    /* font-family: 'Comfortaa', cursive; */
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Bruno Ace', cursive;
+    font-size: large;
 }
 
 .menu{
@@ -33,11 +38,14 @@
     }
 }
 .port_img{
-    background-image: url(images/20221124_1451491.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: linear-gradient(to bottom right,rgb(21, 21, 120), #09351a,#17271d,rgb(82, 65, 33));
     animation: dance 3s ease-in-out infinite;
+    overflow: hidden;
+    background-size: 200% 200%;
+    background-repeat: no-repeat;
 }
+
+
 .map{
     animation: map_pin 10s infinite;
 }
@@ -54,10 +62,15 @@
 @keyframes dance {
     0%{
         transform: translate(0px , 0px);
+        background-size: 100% 300%;
     }
     
     50%{
         transform: translate(-5px, 10px);
+        background-size: 200% 150%;
+    }
+    100%{
+        background-size: 100% 300%;
     }
 }
 .link{
@@ -126,7 +139,7 @@
 }
 .nav-opt::after{
     content: '';
-    border-bottom: solid #fb923c 2px;
+    border-bottom: solid #166534 2px;
     position: absolute;
     top: 0;
     left: 0;
@@ -201,6 +214,15 @@
     transform: translateX(0px);
 }
 
+.admin{
+    transform: translateX(200px);
+    opacity: 0;
+    transition: 1s;
+}
+.present_admin{
+    opacity: 1;
+    transform: translateX(0px);
+}
 .bar_1, .bar_2{
     transition: 0.4s;
 }

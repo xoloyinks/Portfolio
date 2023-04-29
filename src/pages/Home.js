@@ -5,6 +5,7 @@ import Projects from './project';
 import Contact from './contact';
 import Footer from './footer';
 import './diff.css';
+import Admin from './admin';
 
 // REVEAL POINT
 window.addEventListener('scroll', reveal, true);
@@ -30,6 +31,8 @@ export default function Home(){
                 <About />
                 {/* <hr className='border-2 border-gray-700 hidden lg:block' /> */}
                 <Skills />
+                <hr className='hidden border-2 lg:border-gray-700' />
+                <Admin />
                 <hr className='hidden border-2 lg:border-gray-700' />
                 <Projects />
                 <br />
