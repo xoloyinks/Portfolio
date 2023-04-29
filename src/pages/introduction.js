@@ -67,10 +67,10 @@ export default function Caption(){
                     </p>
                     {/* <br className="sm:hidden" /> */}
                     <p className="__pointerX">
-                        <p className="text-white opacity-70 tracking-wide text-2xl sm:text-4xl sm:leading-[60px] ">
+                        <p className="text-white opacity-70 tracking-wide text-2xl sm:text-4xl leading-[60px] ">
                             Frontend Developer
                         </p>
-                    </p><br className="max-[420px]:hidden" />
+                    </p>
                     <div className="w-[60%] sm:w-[60%] "className="__pointerX">
                         <p className="leading-[22px] w-9/12 text-[15px] text-white tracking-widest sm:tracking-wider sm:text-sm  ">
                             Specializing in building exceptional 
