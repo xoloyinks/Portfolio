@@ -15,8 +15,8 @@ export default function Admin(){
   return (
     <>
         <section className='h-fit-content overflow-x-hidden sm:h-screen py-10 px-10 w-screen lg:px-[150px] items-center'>
-           <div className='sm:flex justify-between'>
-              <div className='admin w-full sm:w-6/12 '>
+           <div className='admin sm:flex justify-between'>
+              <div className=' w-full sm:w-6/12 '>
                 <div>
                     <h1 className='text-green-600 text-4xl sm:text-5xl'>About Me</h1>
                 </div>

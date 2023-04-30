@@ -78,7 +78,7 @@ const Map_project = () => {
 const Languages = ({prog}) => {
     return(
         <>
-            <div className={`_language text-white mt-3 text-sm rounded-full w-[50%] p-2 mx-auto`}>{prog}</div>
+            <div className={"bg-green-900 text-white mt-3 text-sm rounded-full w-[50%] p-2 mx-auto"}>{prog}</div>
         </>
     )
 }
