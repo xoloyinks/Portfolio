@@ -41,12 +41,12 @@ export default function Home(){
             <section className='loader opacity-1 bg-red-900 w-screen h-screen fixed overflow-hidden z-50 flex items-center justify-center'>
                 {/* <div className='absolute -right-[250px] -bottom-[150px]'><img src={img} alt="Kolawole" className='opacity-10'/></div> */}
                 <div className='des absolute w-[1000px] h-[1000px] rounded-full'></div>
-                <div className='load_one absolute w-[20px] h-[100px] bg-white rounded-xl'></div>
-                <div className='load_two absolute w-[30px] h-[100px] bg-white rounded-xl'></div>
+                    <div className='load_one absolute w-[20px] h-[100px] bg-white rounded-xl'></div>
+                    <div className='load_two absolute w-[30px] h-[100px] bg-white rounded-xl'></div>
             </section>
             <section className='home z-50 relative w-[100%] h-auto bg-slate-900 relative opacity-0'>
             
-                <About /> */}
+                <About />
                 {/* <hr className='border-2 border-gray-700 hidden lg:block' /> */}
                 <Skills />
                 <hr className='hidden border-2 lg:border-gray-700' />

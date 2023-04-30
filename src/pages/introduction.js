@@ -59,7 +59,7 @@ export default function Caption(){
                     <p>
                         <h1 className={`text-[20px]  leading-[40px] sm:text-[15px] text-${secColor} font-bold`}>Hi, my name is</h1>
                     </p>
-                    <p id="owner">
+                    <p id="owner" className="overflow-hidden">
                         <p className={`text-white flex items-center sm:text-[70px] leading-[60px] sm:leading-[100px] max-[420px]:text-[40px] max-[640px]:text-[60px]`}>
                              <br className="sm:hidden" /><span id="typing"></span> 
                         </p>
@@ -71,7 +71,7 @@ export default function Caption(){
                             Frontend Developer
                         </p>
                     </p>
-                    <div className="w-[60%] sm:w-[60%] "className="__pointerX">
+                    <div className="w-[60%] sm:w-[60%] __pointerX">
                         <p className="leading-[22px] w-9/12 text-[15px] text-white tracking-widest sm:tracking-wider sm:text-sm  ">
                             Specializing in building exceptional 
                             digital experiences. Currently, i'm focused on building accessible, 
