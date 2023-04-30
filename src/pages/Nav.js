@@ -40,9 +40,9 @@ export default function Nav(){
                         <a href="/resume/kolawole.pdf" download className="btn font-bold relative px-[32px] py-[8px] rounded-lg border-2 border-white text-white hover:bg-white hover:text-black ">R&#xe9;sum&#xe9;</a>
                     </div>
                     
-                    <div onClick={showMenu} ref={barRef} className=" flex relative items-center my-auto lg:hidden text-3xl z-50 w-[12%] h-[20px]">
-                        <span className="bar_1 absolute top-0 bg-green-600 w-full h-[19%] rounded-full "></span>
-                        <span className="bar_2 absolute bottom-0 bg-green-600 w-[50%] right-0 h-[22%] rounded-full "></span>
+                    <div onClick={showMenu} ref={barRef} className=" flex relative items-center my-auto lg:hidden text-3xl z-50 w-[8%] h-[15px]">
+                        <span className="bar_1 absolute  bg-green-600 w-full h-[21%] rounded-full "></span>
+                        <span className="bar_2 absolute  bg-green-600 w-[50%] h-[21%] rounded-full "></span>
                     </div>
                 </div>
                 <div ref={navRef} className="menu absolute top-0 bg-slate-900 z-10 py-5 w-screen h-screen">
