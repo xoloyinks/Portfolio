@@ -78,7 +78,7 @@ const Map_project = () => {
 const Languages = ({prog}) => {
     return(
         <>
-            <div className={"bg-green-900 text-white mt-3 text-sm rounded-full w-[50%] p-2 mx-auto"}>{prog}</div>
+            <div className={"bg-green-900 text-white mt-3 text-sm rounded-full w-[50%] p-2 mx-auto max-[380px]:text-[13px]"}>{prog}</div>
         </>
     )
 }
@@ -93,12 +93,12 @@ const Project = ({img , title, languages, weblink}) => {
                     </a>
                 </div>
                 <div className="h-[fit-content]">
-                    <img src={img} alt="Project image" className="" />
+                    <img src={img} alt="Project image" className="mx-auto max-[380px]:w-[250px] " />
                 </div>
                 <div className="p-5 text-gray-500 font-bold">
                     {title}
                 </div>
-                <div>
+                <div className="">
                     {languages.map(data => <Languages prog={data} />)}
                 </div>
                 <br />
@@ -115,10 +115,10 @@ export default function Projects(){
     return(
         <>
            <section id="project"  className="bg-slate-900 px-[20px] flex justify-between flex-wrap w-[100%] relative md:px-[50px] lg:px-[100px] xl:px-[150px]">
-                <div className="text-left py-4 z-30 mt-5">
-                    <h1 className="text-white text-5xl max-[420px]:text-4xl">My Projects</h1>
+                <div className="text-left py-4 z-30 mt-5 max-[640px]:mx-auto">
+                    <h1 className="text-white text-5xl max-[380px]:text-2xl max-[640px]:text-4xl">My Works</h1>
                 </div><br /><br />
-                <div className="flex flex-wrap justify-between w-full mt-3">
+                <div className="flex flex-wrap justify-between w-full mt-3 max-[380px]:mt-0">
                     <Map_project />
                     {/* <h1 className="text-4xl text-gray-600">COMING SOON!</h1> */}
                 </div>

@@ -24,9 +24,9 @@ export default function Footer() {
   },0);
   return (
     <>
-        <section id='footer' className='w-screen sm:h-screen bg-slate-900 flex items-center z-50 px-[45px] py-[30px] sm:px-[100px]'>
+        <section id='footer' className='w-screen sm:h-screen bg-slate-900 flex items-center z-50 px-[45px] py-[30px] sm:px-[100px] md:h-[fit-content] lg:h-[40%] xl:h-screen  min-[1366px]:h-[fit-content]'>
             <div className='w-full flex flex-col justify-between h-full sm:h-auto'>
-              <div className='sm:flex sm:justify-between sm:w-8/12  w-full mb-[80px] sm:mb-[70px] '>
+              <div className='sm:flex sm:justify-between sm:w-8/12  w-full mb-[80px] sm:mb-[70px] md:w-full lg:w-full xl:w-8/12'>
                   <div className=''>
                       <h2 className={`text-${secColor} text-xl tracking-[10px] leading-[50px]`}>SAY HELLO</h2>
                       <p className='text-gray-500 text-lg leading-[50px] underline'><a href="mailto:xoloyinks@gmail.com" target="_blank">xoloyinks@gmail.com</a></p>
@@ -35,7 +35,7 @@ export default function Footer() {
                     <br className='sm:hidden' />
                   <div>
                     <br className='hidden sm:block' /><br className='hidden sm:block' />
-                    <p className='text-white text-lg leading-[50px] '><a href="#">My Projects</a></p>
+                    <p className='text-white text-lg leading-[50px] '><a href="#">My Works</a></p>
                     <p className='text-white text-lg leading-[50px] '><a href="#">My Skills</a></p>
                     <p className='text-white text-lg leading-[50px] '><a href="/resume/kolawole.pdf" download>My R&#xe9;sum&#xe9;</a></p>
                   </div>

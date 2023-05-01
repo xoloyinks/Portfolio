@@ -36,7 +36,7 @@ const skill_data = [
         level: '60'
     },
     {
-        title: 'Tailwind CSS',
+        title: 'Tailwind',
         avatar: tailwind_img,
         level: '80'
     }
@@ -53,15 +53,12 @@ const Skill = ({title, avatar, level}) => {
     return(
         <>
         
-            <section className="each_section mt-3 flex flex-col justify-between rounded text-center py-5 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.2)] shadow-white-3/12 bg-slate-900 w-[45%] lg:w-[27%] max-[650px]:mx-auto">
-                <div className="w-[50%] opacity-70 h-[fit-content] mx-auto drop-shadow shadow-red-500 ">
+            <section className="each_section  py-5 mt-3 bg-slate-900 w-[32%] flex flex-col justify-between rounded text-center max-[380px]:py-2 max-[380px]:mt-1 max-[640px]:h-auto lg:w-[27%] max-[650px]:mx-auto">
+                <div className="w-[50%] opacity-50 h-[fit-content] mx-auto drop-shadow shadow-red-500 max-[640px]:w-[40%] ">
                     <img src={avatar} alt="avatar" className="mx-auto" />
                 </div>
-                <div className="p-5 text-gray-100 font-bold max-[420px]:text-lg ">
+                <div className="p-5 opacity-50 text-gray-100 max-[640px]:text-sm max-[640px]:p-2 ">
                     {title}
-                </div>
-                <div className="text-white bg-white px-4 text-sm max-[420px]:tracking-wider ">
-                    {/* <div className={``}></div> */}
                 </div>
                 <br />
             </section>
@@ -75,13 +72,13 @@ const padding = 'px-[180px]';
 export default function Skills(){
     return(
         <>
-            <section id="skill" className="flex flex-col px-[20px] sm:px-[50px]  py-8 w-[100%] h-auto bg-slate-900 relative md:px-[50px] lg:px-[100px] xl:px-[150px] ">
+            <section id="skill" className="flex flex-col px-[35px] sm:px-[50px]  py-8 w-[100%] h-auto bg-slate-900 relative max-[640px]:py-2 md:px-[50px] lg:px-[100px] xl:px-[150px]">
                
                 <div className="self-center w-full">
                     <div className="text-left py-4 z-50">
-                        <h1 className="text-white text-5xl max-[420px]:text-4xl ">My Skills</h1>
-                    </div><br /><br />
-                    <div className=" flex flex-wrap justify-between w-[auto]">
+                        <h1 className="text-white text-3xl text-center opacity-60 max-[640px]:text-xl">Technologies I Use</h1>
+                    </div><br className="max-[640px]:hidden" />
+                    <div className=" flex flex-wrap justify-between w-auto ">
                         <Map_skill />
                     </div>
                 </div>

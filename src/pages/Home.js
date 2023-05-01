@@ -12,6 +12,8 @@ import img from './images/IMG-20221106-WA0014-removebg-preview.png';
 
 // REVEAL POINT
 window.addEventListener('scroll', reveal, true);
+window.addEventListener('load', reveal, true);
+
 function reveal() {
     const reveals = document.querySelectorAll('.each_section');
     for(var i = 0; i < reveals.length; i++){
@@ -49,12 +51,9 @@ export default function Home(){
                 <About />
                 {/* <hr className='border-2 border-gray-700 hidden lg:block' /> */}
                 <Skills />
-                <hr className='hidden border-2 lg:border-gray-700' />
                 <Admin />
-                <hr className='hidden border-2 lg:border-gray-700' />
                 <Projects />
                 <br />
-                <hr className='hidden border-2 lg:border-gray-700' />
                 <Contact />
                 <Footer />
             </section> 
