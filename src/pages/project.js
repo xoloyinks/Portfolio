@@ -87,11 +87,11 @@ const Project = ({img , title, languages, weblink}) => {
     return(
         <>
             <section className="relative each_section w-[70%] text-center h-auto bg-slate-900 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.2)] shadow-red-500 p-5 mt-3 sm:w-[45%] sm:px-[10px] max-[650px]:mx-auto max-[420px]:w-[95%] lg:w-[30%] sec">
-                <div className="absolute  text-white right-0 left-0 top-0 h-[100%] link">
+                {/* <div className="absolute  text-white right-0 left-0 top-0 h-[100%] link">
                     <a className="flex text-2xl font-semibold backdrop-blur-lg h-full items-center mx-auto justify-center">
                         <span className="px-3"> Coming soon!</span>
                     </a>
-                </div>
+                </div> */}
                 <div className="h-[fit-content]">
                     <img src={img} alt="Project image" className="mx-auto max-[380px]:w-[250px] " />
                 </div>

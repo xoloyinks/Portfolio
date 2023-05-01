@@ -35,8 +35,8 @@ export default function Footer() {
                     <br className='sm:hidden' />
                   <div>
                     <br className='hidden sm:block' /><br className='hidden sm:block' />
-                    <p className='text-white text-lg leading-[50px] '><a href="#">My Works</a></p>
-                    <p className='text-white text-lg leading-[50px] '><a href="#">My Skills</a></p>
+                    <p className='text-white text-lg leading-[50px] '><a href="#project">My Works</a></p>
+                    <p className='text-white text-lg leading-[50px] '><a href="#admin">About Me</a></p>
                     <p className='text-white text-lg leading-[50px] '><a href="/resume/kolawole.pdf" download>My R&#xe9;sum&#xe9;</a></p>
                   </div>
                 <br />
