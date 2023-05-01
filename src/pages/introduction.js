@@ -80,9 +80,9 @@ export default function Caption(){
                     </div><br />
 
                     <div className="p-2 w-[40%] flex justify-between opacity-70 max-[380px]:text-xl max-[640px]:text-2xl md:w-[30%] md:text-2xl xl:hidden">
-                        <span><a href="https://twitter.com/xoloyinksweb"><FaTwitter className="text-" /></a></span>
-                        <span><a href="https://github.com/xoloyinks"><FaGithub className="" /></a></span>
-                        <span><a href="#"><FaLinkedin className="" /></a></span>
+                        <span><a href="https://twitter.com/xoloyinksweb" target="_blank"><FaTwitter className="text-" /></a></span>
+                        <span><a href="https://github.com/xoloyinks" target="_blank"><FaGithub className="" /></a></span>
+                        <span><a href="#" target="_blank"><FaLinkedin className="" /></a></span>
                     </div><br className="sm:hidden md:block"/>
                     <div className="relative w-[220px] h-[70px] max-[380px]:w-[200px] max-[380px]:h-[50px] sm:w-[200px] sm:h-[50px] md:h-[60px] lg:h-[50px] overflow-hidden ">
                         <a href="#project" className="okay flex justify-center items-center rounded-lg overflow-hidden border-2 border-white w-full h-full sm:font-semibold text-white  sm:text-[10px] md:text-[15px] lg:text-[12px] xl:text-[10px]  max-[420px]:text-sm hover:text-black">
@@ -91,7 +91,7 @@ export default function Caption(){
                     </div>
                     <br />
                 </div>
-                <div id="" className={`port_img w-[210px] h-[210px] relative backdrop-blur self-center rounded-full md:h-[350px] md:w-[350px] lg:w-[310px] lg:h-[250px] xl:w-[350px] xl:h-[280px]`}>
+                <div id="admin_avatar" className={`port_img w-[210px] h-[210px] relative backdrop-blur self-center rounded-full md:h-[350px] md:w-[350px] lg:w-[310px] lg:h-[250px] xl:w-[350px] xl:h-[280px]`}>
                     <img src={img} alt="Kolawole" className="w-full h-full z-40"/>
                 </div>
             

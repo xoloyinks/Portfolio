@@ -90,6 +90,26 @@
     background-repeat: no-repeat;
 }
 
+.arrow{
+    background: linear-gradient(to bottom right,rgb(21, 21, 120), #09351a,#17271d,rgb(82, 65, 33));
+    animation: arrow 3s ease-in-out infinite;
+    background-size: 200% 200%;
+    background-repeat: no-repeat;
+    transition:0.5s;
+}
+
+@keyframes arrow {
+    0%{
+        background-size: 100% 300%;
+    }
+    
+    50%{
+        background-size: 200% 150%;
+    }
+    100%{
+        background-size: 100% 300%;
+    }
+}
 .loader{
     background: linear-gradient(to bottom right,#0f172a,#05082e,#020617);
     animation: loader 5s ease-in-out infinite;
@@ -304,6 +324,7 @@
     position: absolute;
     top:auto;
 }
+
 .bar_change .bar_2{
     transition: 0.4s;
     width: 100%;
