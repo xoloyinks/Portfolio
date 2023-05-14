@@ -76,7 +76,7 @@ export default function Skills(){
                
                 <div className="self-center w-full">
                     <div className="text-left py-4 z-50">
-                        <h1 className="text-white text-3xl text-center opacity-60 max-[640px]:text-xl">Technologies I Use</h1>
+                        <h1 className="text-white text-3xl text-center opacity-60 max-[640px]:text-xl">Tech Stack</h1>
                     </div><br className="max-[640px]:hidden" />
                     <div className=" flex flex-wrap justify-between w-auto ">
                         <Map_skill />

@@ -47,15 +47,11 @@ export default function Home(){
                 <div className='des absolute w-[1000px] h-[1000px] rounded-full'></div>
                 <div className='load_one absolute w-[20px] h-[100px] bg-white rounded-xl'></div>
                 <div className='load_two absolute w-[30px] h-[100px] bg-white rounded-xl'></div>
-
-                
-
             </section>
             <section className='home z-50 relative w-[100%] h-auto bg-slate-900 relative opacity-0'>
                 {/* Redirector Arrow */}
                 <a href="#about" className='arrow fixed z-50 bottom-[30px] right-[50px] p-3 rounded-full'>
-                    <FaGreaterThan className='text-white -rotate-90' />
-                    
+                    <FaGreaterThan className='text-white -rotate-90' />    
                 </a>
                 <About />
                 {/* <hr className='border-2 border-gray-700 hidden lg:block' /> */}

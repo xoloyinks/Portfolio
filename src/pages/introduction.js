@@ -68,13 +68,13 @@ export default function Caption(){
                     {/* <br className="sm:hidden" /> */}
                     <p className="__pointerX">
                         <p className="text-white leading-[60px] opacity-70 tracking-wide text-2xl max-[380px]:leading-[20px] sm:text-4xl sm:leading-[60px] md:text-4xl ">
-                            Frontend Developer
+                            Frontend React Developer
                         </p>
                     </p>
                     <div className="w-[60%] max-[380px]:w-[80%] sm:w-[60%] __pointerX md:w-[80%]">
                         <p className="leading-[22px] text-white tracking-widest max-[380px]:mt-[12px] max-[380px]:text-[13px] max-[640px]:text-[15px] sm:tracking-wider sm:text-sm sm:w-9/12 md:text-xl md:mt-4 lg:text-[16px] xl:text-sm  min-[1366px]:text-[17px]">
                             Specializing in building exceptional 
-                            digital experiences. Currently, i'm focused on building accessible, 
+                            React Apps/websites. Currently, i'm focused on building accessible, 
                             human-centered products.
                         </p>
                     </div><br />

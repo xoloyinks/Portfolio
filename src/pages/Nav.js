@@ -43,9 +43,9 @@ export default function Nav(){
                         XOLO.
                     </div>
                     
-                    <div className="hidden lg:flex lg:items-center justify-between w-4/12 text-black text-white  tracking-widest text-sm">
-                        <span className="overflow-hidden w-auto h-auto py-3"><a href="#project" className= "nav-opt px-[10px] py-2 ">Projects</a></span>
-                        <span className="overflow-hidden w-auto h-auto py-3"><a href="#skill" className=" nav-opt px-[10px] py-2">Tech</a></span>
+                    <div className="hidden lg:flex lg:items-center justify-between w-5/12 text-black text-white  tracking-widest text-sm">
+                        <span className="overflow-hidden w-auto h-auto py-3"><a href="#project" className= "nav-opt px-[10px] py-2 ">My Works</a></span>
+                        <span className="overflow-hidden w-auto h-auto py-3"><a href="#skill" className=" nav-opt px-[10px] py-2">Tech Stack</a></span>
                         <span className="overflow-hidden w-auto h-auto py-3"><a href="#contact" className=" nav-opt px-[10px] py-2">Contact</a></span>
                         <a href="/resume/kolawole.pdf" download className="btn font-bold relative px-[32px] py-[8px] rounded-lg border-2 border-white text-white hover:bg-white hover:text-black ">R&#xe9;sum&#xe9;</a>
                     </div>
@@ -58,7 +58,7 @@ export default function Nav(){
                 <div ref={navRef} className="menu absolute top-0 bg-slate-900 z-10 py-5 w-screen h-screen">
                 <nav className="flex flex-col h-screen relative items-center justify-center text-white max-[380px]:text-sm max-[380px]:font-bold max-[640px]:text-xl md:text-2xl">
                     <a href="#project"><p onClick={hideMenu} className="px-5 py-3 nav_link">My Works</p></a>
-                    <a href="#admin_avatar"><p onClick={hideMenu} className="px-5 py-3 nav_link">My Skills</p></a>
+                    <a href="#admin_avatar"><p onClick={hideMenu} className="px-5 py-3 nav_link">Tech Stack</p></a>
                     <a href="#admin"><p onClick={hideMenu} className="px-5 py-3 nav_link">About Me</p></a>
                     <a href="#contact"><p onClick={hideMenu} className="px-5 py-3 nav_link">Reach out</p></a>
                     <a href="/resume/kolawole.pdf" download><p onClick={hideMenu} className="px-5 py-3 nav_link">Download my R&#xe9;sum&#xe9;</p></a>
