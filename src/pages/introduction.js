@@ -48,7 +48,7 @@ export default function Caption(){
                     <div id="poll-socials" className={`hidden z-0 fixed bottom-0 items-center px-3 left-[30px] w-[60px] overflow-x-hidden h-[50%] flex flex-col justify-between min-[1020px]:left-[10px] lg:hidden xl:flex  min-[1366px]:h-[40%]`}>
                         <div id="icon-socials" className={`h-[30%] flex flex-col justify-between`}>
                             <a href="https://twitter.com/xoloyinksweb" target="_blank"><FaTwitter className={`text-green-600`} /></a>
-                            <a href="#"><FaLinkedin className={`text-green-600`} /></a>
+                            <a href="https://www.linkedin.com/in/kolawole-omopariola-180012278" target="_blank"><FaLinkedin className={`text-green-600`} /></a>
                             <a href="https://github.com/xoloyinks" target="_blank"><FaGithub className={`text-green-600`} /></a>
                         </div>
                         <div id="poll" className={`border-l-2 border-green-600 h-[60%] text-green-600  min-[1366px]:h-[60%]`}></div>
@@ -66,11 +66,11 @@ export default function Caption(){
                         <div id="my-mouse" className="absolute z-50 rounded-full top-[200px]"></div>
                     </p>
                     {/* <br className="sm:hidden" /> */}
-                    <p className="__pointerX">
+                    <div className="__pointerX">
                         <p className="text-white leading-[60px] opacity-70 tracking-wide text-2xl max-[380px]:leading-[20px] sm:text-4xl sm:leading-[60px] md:text-4xl ">
                             Frontend React Developer
                         </p>
-                    </p>
+                    </div>
                     <div className="w-[60%] max-[380px]:w-[80%] sm:w-[60%] __pointerX md:w-[80%]">
                         <p className="leading-[22px] text-white tracking-widest max-[380px]:mt-[12px] max-[380px]:text-[13px] max-[640px]:text-[15px] sm:tracking-wider sm:text-sm sm:w-9/12 md:text-xl md:mt-4 lg:text-[16px] xl:text-sm  min-[1366px]:text-[17px]">
                             Specializing in building exceptional 
@@ -82,7 +82,7 @@ export default function Caption(){
                     <div className="p-2 w-[40%] flex justify-between opacity-70 max-[380px]:text-xl max-[640px]:text-2xl md:w-[30%] md:text-2xl xl:hidden">
                         <span><a href="https://twitter.com/xoloyinksweb" target="_blank"><FaTwitter className="text-" /></a></span>
                         <span><a href="https://github.com/xoloyinks" target="_blank"><FaGithub className="" /></a></span>
-                        <span><a href="#" target="_blank"><FaLinkedin className="" /></a></span>
+                        <span><a href="https://www.linkedin.com/in/kolawole-omopariola-180012278" target="_blank"><FaLinkedin className="" /></a></span>
                     </div><br className="sm:hidden md:block"/>
                     <div className="relative w-[220px] h-[70px] max-[380px]:w-[200px] max-[380px]:h-[50px] sm:w-[200px] sm:h-[50px] md:h-[60px] lg:h-[50px] overflow-hidden ">
                         <a href="#project" className="okay flex justify-center items-center rounded-lg overflow-hidden border-2 border-white w-full h-full sm:font-semibold text-white  sm:text-[10px] md:text-[15px] lg:text-[12px] xl:text-[10px]  max-[420px]:text-sm hover:text-black">

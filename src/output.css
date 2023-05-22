@@ -735,8 +735,8 @@ video {
   width: 25%;
 }
 
-.w-4\/12 {
-  width: 33.333333%;
+.w-5\/12 {
+  width: 41.666667%;
 }
 
 .w-\[100\%\] {
@@ -819,14 +819,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-6\/12 {
-  width: 50%;
-}
-
-.w-5\/12 {
-  width: 41.666667%;
 }
 
 .translate-x-\[20px\] {
@@ -1267,6 +1259,10 @@ video {
 
 .opacity-80 {
   opacity: 0.8;
+}
+
+.opacity-20 {
+  opacity: 0.2;
 }
 
 .shadow-red-500 {

@@ -1,4 +1,5 @@
 import React from 'react'
+import admin from './images/selfie_two.jpg'
 
 window.addEventListener('scroll', revealPoint_admin, true);
 function revealPoint_admin(){
@@ -46,11 +47,12 @@ export default function Admin(){
                 </div>
               </div>
 
+              {/* ADMIN IMAGE */}
               <div className='flex items-center justify-center'>
-                <div className='w-[250px] h-[250px] bg-white z-50 rounded-sm  max-[380px]:w-[200px] max-[380px]:h-[200px] '>
-
+                <div className='w-[250px] h-[250px] overflow-hidden bg-white z-50 rounded-sm  max-[380px]:w-[200px] max-[380px]:h-[200px] '>
+                    <img src={admin} alt="" />
                 </div>
-                <div className='absolute z-20 w-[250px] h-[250px] translate-y-[20px] translate-x-[20px] border-2 rounded-sm opacity-50 max-[380px]:w-[200px] max-[380px]:h-[200px] '></div>
+                <div className='absolute z-20 w-[250px] h-[250px] translate-y-[20px] translate-x-[20px] border-green-600 border-2 rounded-sm opacity-20 max-[380px]:w-[200px] max-[380px]:h-[200px] '></div>
               </div>
            </div>
         </section>
