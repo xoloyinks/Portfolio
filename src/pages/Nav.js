@@ -64,7 +64,7 @@ export default function Nav(){
                     <a href="/resume/kolawole.pdf" download><p onClick={hideMenu} className="px-5 py-3 nav_link">Download my R&#xe9;sum&#xe9;</p></a>
                     <div className="flex   justify-between absolute max-[380px]:bottom-[160px] max-[380px]:w-4/12 max-[380px]:text-xl max-[640px]:bottom-[100px] max-[640px]:text-2xl max-[640px]:w-6/12 md:bottom-[200px] md:w-4/12 md:text-3xl">
                         <a href="https://twitter.com/xoloyinksweb" target="_blank"><FaTwitter  className="text-green-600" /></a>
-                        <a href="#"><FaLinkedin  className="text-green-600"/></a>
+                        <a href="https://www.linkedin.com/in/kolawole-omopariola-180012278" target="_blank"><FaLinkedin  className="text-green-600"/></a>
                         <a href="https://github.com/xoloyinks" target="_blank"><FaGithub  className="text-green-600"/></a>
                     </div>
                 </nav>
