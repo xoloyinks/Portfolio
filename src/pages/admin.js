@@ -27,8 +27,8 @@ export default function Admin(){
                   2018 when i decided to try an E-commerce website like "Jumia" - turns out 
                   building Responsive, Fast, and User centered websites taught me a lot about HTML, CSS and JavaScript!
                   <br /><br />
-                  Fast-forward to today, i'm currently a third year student of <abbr title="Federal University of Technology Akure">FUTA </abbr>
-                  studying Computer Science.
+                  Fast-forward to today, i'm currently a third year student of <abbr title="Federal University of Technology Akure">FUTA</abbr>
+                  <span> studying Computer Science.</span>
                   Here are a few technologies i've been working with recently:
                   <br />
                   <ul className='flex flex-wrap font-bold text-sm p-3 justify-between list-disc opacity-70 md:w-9/12'>
