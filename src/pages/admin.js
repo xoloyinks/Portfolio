@@ -39,7 +39,7 @@ export default function Admin(){
                     </div>
                     <div>
                     <li>Tailwind CSS</li>
-                    <li>HTML</li>
+                    <li>TypeScript</li>
                     <li>CSS</li>
                     </div>
                   </ul>

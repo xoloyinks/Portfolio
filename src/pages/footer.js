@@ -44,7 +44,7 @@ export default function Footer() {
               <div className='text-white text-sm'>
                 <hr className='border-[1px] border-gray-600 w-full' />
                 <br />
-                <span className='leading-[50px] tracking-widest opacity-80 flex items-center'><span className='font-bold text-xl'>&#xa9; </span> XOLO 2023</span>
+                <span className='leading-[50px] tracking-widest opacity-80 flex items-center'><span className='font-bold text-xl'>&#xa9; </span> XOLO 2023. All rights reserved</span>
               </div>
               
             </div>
