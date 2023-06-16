@@ -1245,6 +1245,10 @@ video {
   opacity: 1;
 }
 
+.opacity-20 {
+  opacity: 0.2;
+}
+
 .opacity-50 {
   opacity: 0.5;
 }
@@ -1259,10 +1263,6 @@ video {
 
 .opacity-80 {
   opacity: 0.8;
-}
-
-.opacity-20 {
-  opacity: 0.2;
 }
 
 .shadow-red-500 {
