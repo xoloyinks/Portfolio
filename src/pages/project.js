@@ -27,7 +27,7 @@ const project_data = [
         image: portfolio,
         heading: 'xoloyinks',
         title: 'Personal website',
-        to: '/jewelry',
+        to: '/personal-website',
         languages: [
             'React',
             'Tailwind CSS'
