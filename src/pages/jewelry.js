@@ -18,7 +18,7 @@ const data = [
 
 export default function Jewelry() {
   const [control, setControl] = useState(0);
-    if(control > 4){
+    if(control > 2){
       setControl(0);
     }else{
       setTimeout(() => {
