@@ -21,7 +21,7 @@ const project_data = [
             'CSS',
             'JavaScript'
         ],
-        weblink: 'www.facebook.com' 
+        weblink: 'jewelry-git-master-xoloyinks.vercel.app/' 
     },
     {
         image: portfolio,
@@ -64,7 +64,7 @@ const Project = ({img,id, title, lead, heading, weblink}) => {
                         </a>
                         <div className="h-[30%] bg-slate-800 p-5 text-white text-sm flex flex-col">
                             <span>{title}</span>
-                            <a href={`https://${weblink}`} className="text-blue-500">{weblink}</a>
+                            <a href={`https://${weblink}`} target="_blank" className="text-blue-500">{weblink}</a>
                         </div>
                     </div>
             
