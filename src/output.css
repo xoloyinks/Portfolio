@@ -1127,6 +1127,11 @@ video {
   padding-bottom: 8px;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pt-24 {
   padding-top: 6rem;
 }
@@ -1190,6 +1195,10 @@ video {
   font-weight: 600;
 }
 
+.font-thin {
+  font-weight: 100;
+}
+
 .leading-\[22px\] {
   line-height: 22px;
 }
@@ -1210,6 +1219,10 @@ video {
   line-height: 60px;
 }
 
+.leading-8 {
+  line-height: 2rem;
+}
+
 .tracking-\[10px\] {
   letter-spacing: 10px;
 }
@@ -1224,6 +1237,10 @@ video {
 
 .tracking-widest {
   letter-spacing: 0.1em;
+}
+
+.-tracking-widest {
+  letter-spacing: -0.1em;
 }
 
 .text-black {
