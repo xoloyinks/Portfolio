@@ -288,6 +288,7 @@
 }
 .project_banner{
     transition: 0.5s;
+    trans
 }
 .active{
     transform: translateY(0);
