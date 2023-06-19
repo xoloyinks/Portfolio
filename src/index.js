@@ -3,13 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './output.css';
 import reportWebVitals from './reportWebVitals';
 import Home from './pages/Home'
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Jewelry from './pages/jewelry';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
-        <Home />
+        <Routes path="/">
+          <Route index element={<Home />} />
+          <Route path='jewelry' element={<Jewelry />} />
+        </Routes>
     </Router>
     {/* <Router>
       <Practice />

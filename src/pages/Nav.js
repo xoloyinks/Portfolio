@@ -57,10 +57,10 @@ export default function Nav(){
                 </div>
                 <div ref={navRef} className="absolute top-0 z-10 w-screen h-screen py-5 menu bg-slate-900">
                 <nav className="flex flex-col h-screen relative items-center justify-center text-white max-[380px]:text-sm max-[380px]:font-bold max-[640px]:text-xl md:text-2xl">
-                    <a href="#project"><p onClick={hideMenu} className="px-5 py-3 nav_link">My Works</p></a>
-                    <a href="#admin_avatar"><p onClick={hideMenu} className="px-5 py-3 nav_link">Tech Stack</p></a>
+                    <a href="/"><p onClick={hideMenu} className="px-5 py-3 nav_link">Home</p></a>
+                    {/* <a href="#project"><p onClick={hideMenu} className="px-5 py-3 nav_link">My Works</p></a>
                     <a href="#admin"><p onClick={hideMenu} className="px-5 py-3 nav_link">About Me</p></a>
-                    <a href="#contact"><p onClick={hideMenu} className="px-5 py-3 nav_link">Reach out</p></a>
+                    <a href="#contact"><p onClick={hideMenu} className="px-5 py-3 nav_link">Reach out</p></a> */}
                     <a href="/resume/Resume-Kolawole-Omopariola.pdf" download><p onClick={hideMenu} className="px-5 py-3 nav_link">Download my R&#xe9;sum&#xe9;</p></a>
                     <div className="flex   justify-between absolute max-[380px]:bottom-[160px] max-[380px]:w-4/12 max-[380px]:text-xl max-[640px]:bottom-[100px] max-[640px]:text-2xl max-[640px]:w-6/12 md:bottom-[200px] md:w-4/12 md:text-3xl">
                         <a href="https://twitter.com/xoloyinksweb" target="_blank"><FaTwitter  className="text-green-600" /></a>

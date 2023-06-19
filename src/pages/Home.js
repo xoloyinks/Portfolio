@@ -39,8 +39,10 @@ window.addEventListener('load',handle)
 
 export default function Home(){
     return(
+        
         <>
-            <section className='loader opacity-1 bg-red-900 w-screen h-screen fixed overflow-hidden z-50 flex items-center justify-center'>
+            
+            <section className='fixed z-50 flex items-center justify-center w-screen h-screen overflow-hidden bg-red-900 loader opacity-1'>
                 {/* <div className='absolute -right-[250px] -bottom-[150px]'><img src={img} alt="Kolawole" className='opacity-10'/></div> */}
 
                 {/* Intro Loader */}
@@ -54,7 +56,7 @@ export default function Home(){
                     <FaGreaterThan className='text-white -rotate-90' />    
                 </a>
                 <About />
-                {/* <hr className='border-2 border-gray-700 hidden lg:block' /> */}
+                {/* <hr className='hidden border-2 border-gray-700 lg:block' /> */}
                 <Skills />
                 <Admin />
                 <Projects />

@@ -1,17 +1,21 @@
-import React from "react";
-import pixel from './images/Screenshot(6).png';
-import xprocart from './images/Screenshot(21).png';
+import React, { createContext } from "react";
+import { Outlet, Link } from 'react-router';
+import pixels from './images/icons8-jewelry-64.png';
+import portfolio from './images/icons8-portfolio-48.png';
 import frage from './images/Screenshot(22).png';
 import sport from './images/Screenshot(23).png';
 import fiver from './images/Screenshot(24).png';
 import blog from './images/Screenshot(35).png';
 import { BsGlobe } from 'react-icons/bs'
+import { useState } from "react";
 
 
 const project_data = [
     {
-        image: 'Jewelry store',
+        image: pixels,
+        heading: 'Jewelry store',
         title: 'Jewelry store',
+        to: '/jewelry',
         languages: [
             'HTML',
             'CSS',
@@ -20,8 +24,10 @@ const project_data = [
         weblink: 'www.facebook.com' 
     },
     {
-        image: 'xoloyinks',
+        image: portfolio,
+        heading: 'xoloyinks',
         title: 'Personal website',
+        to: '/jewelry',
         languages: [
             'React',
             'Tailwind CSS'
@@ -35,7 +41,7 @@ const priColor = "green-800";
 
 const Map_project = () => {
     return project_data.map(
-        (data) => <Project img={data.image} title={data.title} languages={data.languages} weblink={data.weblink} />
+        (data , i) => <Project key={i} id={i}  img={data.image} title={data.title} lead={data.to} heading={data.heading} languages={data.languages} weblink={data.weblink} />
     )
 }
 const Languages = ({prog}) => {
@@ -46,20 +52,23 @@ const Languages = ({prog}) => {
     )
 }
 
-const Project = ({img , title, languages, weblink}) => {
+
+const Project = ({img,id, title, lead, heading, weblink}) => {
+    const [check, setCheck] = useState(id);
     return(
         <>
-            <div className="each_section sec w-[90%] mx-auto h-[30vh] my-4 bg-slate-900 shadow-md shadow-slate-800">
-                <a href="#" className="project_logo h-[70%] w-full flex items-center justify-center text-xl text-slate-400 font-bold">
-                    {img}
-                </a>
-                <div className="h-[30%] bg-slate-800 p-5 text-white text-sm flex flex-col">
-                    <span>{title}</span>
-                    <a href="#" className="text-blue-500">{weblink}</a>
-                </div>
-            </div>
+                    <div className="each_section sec w-[90%] mx-auto h-[30vh] my-4 bg-slate-900 shadow-md shadow-slate-800">
+                        <a href={lead}  className="project_logo h-[70%] w-full flex items-center justify-center text-xl text-slate-400 font-bold">
+                            <img src={img} alt="" className="w" />
+                            {heading}
+                        </a>
+                        <div className="h-[30%] bg-slate-800 p-5 text-white text-sm flex flex-col">
+                            <span>{title}</span>
+                            <a href={`https://${weblink}`} className="text-blue-500">{weblink}</a>
+                        </div>
+                    </div>
             
-
+        <Outlet />
         </>
     )
 }
@@ -79,3 +88,5 @@ export default function Projects(){
         </>
     )
 }
+
+
