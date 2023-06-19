@@ -42,12 +42,14 @@ export default function Jewelry() {
         </div>
       </div>
 
-      <div className='px-8 py-5 text-lg font-thin leading-8 tracking-widest text-white'>
-        The Jewelry store is an ecommerce website built by me to upgrade my Portfolio. <br /> <br />
-        This site Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium beatae vero temporibus sapiente dolore natus debitis quae veritatis dolores fugiat, quos itaque rerum in unde, aut error nam at ipsa!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis perferendis itaque voluptatem dolor, veritatis numquam enim quidem, cupiditate exercitationem vitae eos praesentium sapiente perspiciatis ab iste blanditiis vel reprehenderit tempore. <br /><br />
-        Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit saepe quod maiores itaque dicta provident fugiat nihil neque recusandae laborum, cumque, delectus adipisci illum tempore cum ut hic sint officiis!
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et nemo iusto, incidunt tempore sit aliquam qui molestiae mollitia autem doloremque eos nostrum. Earum doloremque voluptates veniam, ut optio quaerat minima!
+      <div className='px-[45px] py-5 text-lg font-thin leading-8 tracking-widest text-white'>
+      I developed a this website with a focus on creating a responsive and user-friendly experience. <br /><br /> 
+      The primary goal of this project was to upgrade and enhance my portfolio, showcasing my skills as a frontend developer.
+
+      One of the key features of the website is the cart functionality, enabling users to easily add and remove items from their 
+      shopping cart. I implemented this functionality using React hooks and leveraged local storage to store and manage the cart data. 
+      Users can add products to their cart with just a few clicks 
+      and review their selections before proceeding to the checkout process.
         
         
       </div>
