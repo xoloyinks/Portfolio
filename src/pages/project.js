@@ -7,10 +7,11 @@ import fiver from './images/Screenshot(24).png';
 import blog from './images/Screenshot(35).png';
 import { BsGlobe } from 'react-icons/bs'
 
+
 const project_data = [
     {
-        image: pixel,
-        title: 'Pixel Web Application',
+        image: 'Jewelry store',
+        title: 'Jewelry store',
         languages: [
             'HTML',
             'CSS',
@@ -19,51 +20,13 @@ const project_data = [
         weblink: 'www.facebook.com' 
     },
     {
-        image: xprocart,
-        title: 'XproCart Shopping site',
+        image: 'xoloyinks',
+        title: 'Personal website',
         languages: [
             'React',
             'Tailwind CSS'
         ],
-        weblink: 'www.twitter.com'
-    },
-    {
-        image: frage,
-        title: 'FRAGE-X Perfume Store site',
-        languages: [
-            'HTML',
-            'CSS',
-            'JavaScript'
-        ],
-        weblink: 'www.whatsapp.com'
-    },
-    {
-        image: sport,
-        title: 'Evet Sport Website',
-        languages:[
-            'React',
-            'Tailwind CSS'
-        ],
-        weblink: 'www.twitter.com'
-    },
-    {
-        image: fiver,
-        title: 'Fiverr Profile Page',
-        languages:[
-            'React',
-            'Tailwind CSS'
-        ],
-        weblink: 'www.twitter.com'
-    },
-    {
-        image: blog,
-        title: 'Linda Paul Blog',
-        languages:[
-            'HTML',
-            'CSS',
-            'JavaScript'
-        ],
-        weblink: 'www.twitter.com'
+        weblink: 'xoloyinks.vercel.app'
     }
 ]
 
@@ -86,26 +49,15 @@ const Languages = ({prog}) => {
 const Project = ({img , title, languages, weblink}) => {
     return(
         <>
-            <section className="relative each_section w-[70%] text-center h-auto bg-slate-900 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.2)] shadow-red-500 p-5 mt-3 sm:w-[45%] sm:px-[10px] max-[650px]:mx-auto max-[420px]:w-[95%] lg:w-[30%] sec">
-                {/* <div className="absolute  text-white right-0 left-0 top-0 h-[100%] link">
-                    <a className="flex text-2xl font-semibold backdrop-blur-lg h-full items-center mx-auto justify-center">
-                        <span className="px-3"> Coming soon!</span>
-                    </a>
-                </div> */}
-                <div className="h-[fit-content]">
-                    <img src={img} alt="Project image" className="mx-auto max-[380px]:w-[250px] " />
+            <div className="each_section sec w-[90%] mx-auto h-[30vh] my-4 bg-slate-900 shadow-md shadow-slate-800">
+                <a href="#" className="project_logo h-[70%] w-full flex items-center justify-center text-xl text-slate-400 font-bold">
+                    {img}
+                </a>
+                <div className="h-[30%] bg-slate-800 p-5 text-white text-sm flex flex-col">
+                    <span>{title}</span>
+                    <a href="#" className="text-blue-500">{weblink}</a>
                 </div>
-                <div className="p-5 text-gray-500 font-bold">
-                    {title}
-                </div>
-                <div className="">
-                    {languages.map(data => <Languages prog={data} />)}
-                </div>
-                <br />
-                <div className="absolute top-0 text-[10px] opacity-50 font-semibold bg-black text-white mx-auto w-[fit-content] p-3">
-                    COMING SOON!
-                </div>
-            </section>
+            </div>
             
 
         </>

@@ -283,6 +283,9 @@
     opacity: 0;
     transition: 1s;
 }
+.project_logo{
+    background: linear-gradient(to bottom right, rgb(51,65,85), rgb(30,41,59));
+}
 .active{
     transform: translateY(0);
     opacity: 10;
