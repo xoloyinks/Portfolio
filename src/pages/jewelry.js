@@ -4,16 +4,16 @@ import {RxDot, RxDotFilled} from 'react-icons/rx'
 import Nav from './Nav'
 import img_1 from './images/localhost_3000_11.png'
 import img_2 from './images/localhost_3000_1.png'
-import img_3 from './images/localhost_3000_1s.png'
+// import img_3 from './images/localhost_3000_1s.png'
 import img_4 from './images/localhost_300sa0_1.png'
-import img_5 from './images/localhost_3000dd_1.png'
+// import img_5 from './images/localhost_3000dd_1.png'
 
 const data = [
   img_1,
   img_2,
-  img_3,
-  img_4,
-  img_5
+  // img_3,
+  img_4
+  // img_5
 ]
 
 export default function Jewelry() {
