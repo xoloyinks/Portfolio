@@ -286,10 +286,7 @@
 .project_logo{
     background: linear-gradient(to bottom right, rgb(51,65,85), rgb(30,41,59));
 }
-.project_banner{
-    transition: 0.5s;
-    trans
-}
+
 .active{
     transform: translateY(0);
     opacity: 10;
