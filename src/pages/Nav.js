@@ -43,10 +43,11 @@ export default function Nav(){
                         XOLO.
                     </div>
                     
-                    <div className="justify-between hidden w-5/12 text-sm tracking-widest text-black text-white lg:flex lg:items-center">
-                        <span className="w-auto h-auto py-3 overflow-hidden"><a href="#project" className= "nav-opt px-[10px] py-2 ">My Works</a></span>
+                    <div className="justify-between hidden w-[20%] text-sm tracking-widest text-black text-white lg:flex lg:items-center">
+                        <span className="w-auto h-auto py-3 overflow-hidden"><a href="/" className= "nav-opt px-[10px] py-2 ">Home</a></span>
+                        {/* <span className="w-auto h-auto py-3 overflow-hidden"><a href="#project" className= "nav-opt px-[10px] py-2 ">My Works</a></span>
                         <span className="w-auto h-auto py-3 overflow-hidden"><a href="#skill" className=" nav-opt px-[10px] py-2">Tech Stack</a></span>
-                        <span className="w-auto h-auto py-3 overflow-hidden"><a href="#contact" className=" nav-opt px-[10px] py-2">Contact</a></span>
+                        <span className="w-auto h-auto py-3 overflow-hidden"><a href="#contact" className=" nav-opt px-[10px] py-2">Contact</a></span> */}
                         <a href="/resume/Resume-Kolawole-Omopariola.pdf" download className="btn font-bold relative px-[32px] py-[8px] rounded-lg border-2 border-white text-white hover:bg-white hover:text-black ">R&#xe9;sum&#xe9;</a>
                     </div>
                     
