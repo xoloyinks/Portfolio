@@ -583,6 +583,10 @@ video {
   bottom: 0px;
 }
 
+.bottom-7 {
+  bottom: 1.75rem;
+}
+
 .bottom-\[30px\] {
   bottom: 30px;
 }
@@ -601,26 +605,6 @@ video {
 
 .top-\[200px\] {
   top: 200px;
-}
-
-.bottom-5 {
-  bottom: 1.25rem;
-}
-
-.left-0 {
-  left: 0px;
-}
-
-.left-\[50\%\] {
-  left: 50%;
-}
-
-.-left-\[50\%\] {
-  left: -50%;
-}
-
-.bottom-7 {
-  bottom: 1.75rem;
 }
 
 .z-0 {
@@ -718,6 +702,10 @@ video {
   height: 30vh;
 }
 
+.h-\[40vh\] {
+  height: 40vh;
+}
+
 .h-\[50\%\] {
   height: 50%;
 }
@@ -752,8 +740,8 @@ video {
   height: 100vh;
 }
 
-.h-\[40vh\] {
-  height: 40vh;
+.h-\[50vh\] {
+  height: 50vh;
 }
 
 .w-3\/12 {
@@ -828,6 +816,10 @@ video {
   width: 90%;
 }
 
+.w-\[90vw\] {
+  width: 90vw;
+}
+
 .w-auto {
   width: auto;
 }
@@ -838,14 +830,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-\[95vw\] {
-  width: 95vw;
-}
-
-.w-\[90vw\] {
-  width: 90vw;
 }
 
 .translate-x-\[20px\] {
@@ -1127,11 +1111,6 @@ video {
   padding-bottom: 8px;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .pt-24 {
   padding-top: 6rem;
 }
@@ -1199,6 +1178,10 @@ video {
   font-weight: 100;
 }
 
+.leading-8 {
+  line-height: 2rem;
+}
+
 .leading-\[22px\] {
   line-height: 22px;
 }
@@ -1219,10 +1202,6 @@ video {
   line-height: 60px;
 }
 
-.leading-8 {
-  line-height: 2rem;
-}
-
 .tracking-\[10px\] {
   letter-spacing: 10px;
 }
@@ -1239,10 +1218,6 @@ video {
   letter-spacing: 0.1em;
 }
 
-.-tracking-widest {
-  letter-spacing: -0.1em;
-}
-
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1256,6 +1231,11 @@ video {
 .text-gray-100 {
   --tw-text-opacity: 1;
   color: rgb(243 244 246 / var(--tw-text-opacity));
+}
+
+.text-gray-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
 .text-gray-500 {
@@ -1281,11 +1261,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-gray-200 {
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1957,6 +1932,14 @@ video {
   .lg\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .lg\:pt-32 {
+    padding-top: 8rem;
+  }
+
+  .lg\:pt-36 {
+    padding-top: 9rem;
   }
 
   .lg\:text-\[12px\] {

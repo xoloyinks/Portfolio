@@ -30,10 +30,10 @@ export default function Jewelry() {
   return (
     <section className='w-screen h-[fit-content] text-black bg-slate-900'>
       <Nav />
-      <div className='py-8 text-2xl text-center text-gray-200 pt-28'>
+      <div className='py-8 text-2xl text-center text-gray-200 pt-28 lg:pt-36'>
           Jewelry Store
       </div>
-      <div className='project_banner h-[40vh] relative'>
+      <div className='h-[50vh] border-2 border-white relative'>
         <div className='flex items-center project_banner h-[70%]' >
           <img src={data[control]} alt="" className='w-[90vw] mx-auto'/>
         </div>
