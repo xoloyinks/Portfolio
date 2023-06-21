@@ -47,7 +47,7 @@ export default function Caption(){
                     {/* SOCIAL ICON FIXED */}
                     <div id="poll-socials" className={`hidden z-0 fixed bottom-0 items-center px-3 left-[30px] w-[60px] overflow-x-hidden h-[50%] flex flex-col justify-between min-[1020px]:left-[10px] lg:hidden xl:flex  min-[1366px]:h-[40%]`}>
                         <div id="icon-socials" className={`h-[30%] flex flex-col justify-between`}>
-                            <a href="https://twitter.com/xoloyinksweb" target="_blank"><FaTwitter className={`text-green-600`} /></a>
+                            <a href="https://twitter.com/xoloyinks_" target="_blank"><FaTwitter className={`text-green-600`} /></a>
                             <a href="https://www.linkedin.com/in/kolawole-omopariola-180012278" target="_blank"><FaLinkedin className={`text-green-600`} /></a>
                             <a href="https://github.com/xoloyinks" target="_blank"><FaGithub className={`text-green-600`} /></a>
                         </div>
@@ -86,13 +86,13 @@ export default function Caption(){
                     </div><br className="sm:hidden md:block"/>
                     <div className="relative w-[220px] h-[70px] max-[380px]:w-[200px] max-[380px]:h-[50px] sm:w-[200px] sm:h-[50px] md:h-[60px] lg:h-[50px] overflow-hidden ">
                         <a href="#project" className="okay flex justify-center items-center rounded-lg overflow-hidden border-2 border-white w-full h-full sm:font-semibold text-white  sm:text-[10px] md:text-[15px] lg:text-[12px] xl:text-[10px]  max-[420px]:text-sm hover:text-black">
-                            SEE MY WORK <span className="font-bold text-2xl ml-3"> &#x2192;</span> 
+                            SEE MY WORK <span className="ml-3 text-2xl font-bold"> &#x2192;</span> 
                         </a>
                     </div>
                     <br />
                 </div>
                 <div id="admin_avatar" className={`port_img w-[210px] h-[210px] relative backdrop-blur self-center rounded-full md:h-[350px] md:w-[350px] lg:w-[310px] lg:h-[250px] xl:w-[350px] xl:h-[280px]`}>
-                    <img src={img} alt="Kolawole" className="w-full h-full z-40"/>
+                    <img src={img} alt="Kolawole" className="z-40 w-full h-full"/>
                 </div>
             
             </section>
