@@ -40,13 +40,8 @@ export default function Portfolio(){
       </div>
 
       <div className='px-[45px] py-5 text-lg font-thin leading-8 tracking-widest text-white lg:w-[50vw] lg:text-center lg:mx-auto'>
-      I developed this website with a focus on creating a responsive and user-friendly experience. <br /><br /> 
-      The primary goal of this project was to upgrade and enhance my portfolio, showcasing my skills as a frontend developer.
-
-      One of the key features of the website is the cart functionality, enabling users to easily add and remove items from their 
-      shopping cart. I implemented this functionality using React hooks and leveraged local storage to store and manage the cart data. 
-      Users can add products to their cart with just a few clicks 
-      and review their selections before proceeding to the checkout process.
+      As a React developer proficient in building stunning and responsive web applications, I have recently developed a cutting-edge portfolio utilizing
+       the power of React and the flexibility of Tailwind CSS. This portfolio showcases my skills, experience, and projects in a visually appealing and user-friendly manner.
         
         
       </div>
