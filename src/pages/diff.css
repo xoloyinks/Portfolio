@@ -5,6 +5,19 @@
 *{
     font-family: 'Titillium Web', sans-serif;
 }
+body::-webkit-scrollbar{
+    width: 7px;
+    background:transparent;
+}
+body::-webkit-scrollbar-track{
+    width: 3px;
+    background: rgb(15, 23, 42);
+}
+body::-webkit-scrollbar-thumb{
+    background: green;
+    width: 2px;
+    /* border-radius: 5px; */
+}
 .load_one{
     animation: load_one 1.5s;
     transform: rotate(45deg);
