@@ -11,11 +11,11 @@ Welcome to my frontend engineer portfolio! This repository showcases my projects
 
 ### Features
 In this portfolio, you will find the following features:
-
-1. ### Project Showcase:
+ 
+### 1. Project Showcase:
 I have included a collection of my best frontend projects, demonstrating my skills in JavaScript, React and various frameworks.
 
-2. ### Project Descriptions: 
+### 2. Project Descriptions: 
 Each project comes with a brief description, explaining its purpose, technologies used, and key features.
 
 In the project directory, you can run:
