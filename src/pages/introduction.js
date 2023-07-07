@@ -79,8 +79,9 @@ export default function Caption(){
                         </p>
                     </div><br />
 
+                    {/* Mobile view Social list */}
                     <div className="p-2 w-[40%] flex justify-between opacity-70 max-[380px]:text-xl max-[640px]:text-2xl md:w-[30%] md:text-2xl xl:hidden">
-                        <span><a href="https://twitter.com/xoloyinksweb" target="_blank"><FaTwitter className="text-" /></a></span>
+                        <span><a href="https://twitter.com/xoloyinks_" target="_blank"><FaTwitter className="text-" /></a></span>
                         <span><a href="https://github.com/xoloyinks" target="_blank"><FaGithub className="" /></a></span>
                         <span><a href="https://www.linkedin.com/in/kolawole-omopariola-180012278" target="_blank"><FaLinkedin className="" /></a></span>
                     </div><br className="sm:hidden md:block"/>

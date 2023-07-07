@@ -7,7 +7,6 @@ import Footer from './footer';
 import './diff.css';
 import Admin from './admin';
 import { FaAdjust, FaFeather, FaGreaterThan, FaStar } from 'react-icons/fa';
-import img from './images/IMG-20221106-WA0014-removebg-preview.png';
 
 
 // REVEAL POINT

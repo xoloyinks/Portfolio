@@ -2,11 +2,6 @@ import React, { createContext } from "react";
 import { Outlet, Link } from 'react-router';
 import pixels from './images/icons8-jewelry-64.png';
 import portfolio from './images/icons8-portfolio-48.png';
-import frage from './images/Screenshot(22).png';
-import sport from './images/Screenshot(23).png';
-import fiver from './images/Screenshot(24).png';
-import blog from './images/Screenshot(35).png';
-import { BsGlobe } from 'react-icons/bs'
 import { useState } from "react";
 
 
