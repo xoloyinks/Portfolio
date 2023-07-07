@@ -1,15 +1,15 @@
 # Frontend Engineer Portfolio
 
-Welcome to my frontend engineer portfolio! This repository showcases my projects and highlights my skills as a frontend developer. Please find below the table of contents to navigate through this README file.
+Welcome to my frontend engineer portfolio! This repository showcases my projects and highlights my skills as a frontend developer.
 
-# Table of Contents
+## Table of Contents
 
-* [Features]
-* [Features]
-* [Features]
-* [Features]
+* [Features](#features)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
 
-## Available Scripts
+### Features
 
 In the project directory, you can run:
 
