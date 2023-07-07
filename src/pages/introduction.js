@@ -68,7 +68,7 @@ export default function Caption(){
                     {/* <br className="sm:hidden" /> */}
                     <div className="__pointerX">
                         <p className="text-white leading-[60px] opacity-70 tracking-wide text-2xl max-[380px]:leading-[20px] sm:text-4xl sm:leading-[60px] md:text-4xl ">
-                            Frontend React Developer
+                            Frontend Engineer
                         </p>
                     </div>
                     <div className="w-[60%] max-[380px]:w-[80%] sm:w-[60%] __pointerX md:w-[80%]">
