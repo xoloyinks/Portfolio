@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Frontend Engineer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my frontend engineer portfolio! This repository showcases my projects and highlights my skills as a frontend developer. Please find below the table of contents to navigate through this README file.
+
+# Table of Contents
+
+* [Features]
+* [Features]
+* [Features]
+* [Features]
 
 ## Available Scripts
 
@@ -68,3 +75,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
