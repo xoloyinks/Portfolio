@@ -74,8 +74,8 @@ export default function Caption(){
                     <div className="w-[60%] max-[380px]:w-[80%] sm:w-[60%] __pointerX md:w-[80%]">
                         <p className="leading-[22px] text-white tracking-widest max-[380px]:mt-[12px] max-[380px]:text-[13px] max-[640px]:text-[15px] sm:tracking-wider sm:text-sm sm:w-9/12 md:text-xl md:mt-4 lg:text-[16px] xl:text-sm  min-[1366px]:text-[17px]">
                             Specializing in building exceptional 
-                            React Apps/websites. Currently, i'm focused on building accessible, 
-                            human-centered products.
+                            Websites. Currently, i'm focused on building accessible, 
+                            human-centered Web softwares.
                         </p>
                     </div><br />
 
