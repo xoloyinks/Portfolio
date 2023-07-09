@@ -19,7 +19,7 @@ export default function Admin(){
            <div className='justify-between admin sm:flex md:block lg:flex'>
               <div className='w-full sm:w-6/12 md:w-full lg:w-6/12'>
                 <div>
-                    <h1 className='text-green-600 text-4xl max-[380px]:text-3xl sm:text-5xl'>About Me</h1>
+                    <h1 className='text-white text-4xl max-[380px]:text-3xl sm:text-5xl'>About Me</h1>
                 </div>
                 <br />
                 <div className='text-white leading-[30px] text-[15px] tracking-widest max-[380px]:text-sm '>
